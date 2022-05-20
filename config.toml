@@ -89,10 +89,6 @@ home = ["HTML", "RSS", "Algolia"]
   
 
   [[params.addtional_menus]]
-  title =  "Portfolio"
-  href =  "/top/portfolio/"
-  
-  [[params.addtional_menus]]
   title =  "Projects"
   href =  "/top/projects/"
   
