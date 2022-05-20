@@ -8,7 +8,7 @@ An der Bergwiese 7<br>
 
 ### Kontakt:
 
-E-Mail: mail@marvinschmitt.com</br>
+E-Mail: mail.marvinschmitt@gmail.com</br>
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
