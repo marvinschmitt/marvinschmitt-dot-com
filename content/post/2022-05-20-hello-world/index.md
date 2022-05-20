@@ -17,4 +17,4 @@ Thanks to the incredible projects [`hugo`](https://gohugo.io/), [`blogdown`](htt
 
 BTW: The top banner is a stock photo. If I ever produce code that looks anything like this dense mess, please remind me to quit programming forever.
 
-As pretty much every aspiring early career researcher, I am obviously planning to publish valuable, insightful, and thought-provoking blog posts regularly. See you in ~~tomorrow~~ ~~next week~~ ~~in a month~~ at some time for the first actual post. Cheers!
+As pretty much every aspiring early career researcher, I am obviously planning to publish valuable, insightful, and thought-provoking blog posts regularly. See you ~~tomorrow~~ ~~next week~~ ~~in a month~~ at some time for the first actual post. Cheers!
