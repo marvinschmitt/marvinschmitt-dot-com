@@ -11,6 +11,8 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 - [Teaching](#teaching)
 - [Workshops and Training](#workshops)
 - [Software Contributions](#software)
+- [Skills](#skills)
+- [Peer Reviewer](#reviewer)
 
 ----
 
@@ -97,9 +99,9 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 
 - **Languages:** German (native), English (fluent), French (basic)
 - **Programming Stack:** Python, R, HTML, CSS, C++
-- **Data Science & Statistics:** R (brms, lme4, afex, tidyverse), Stan, SPSS, Excel
+- **Data Science & Statistics:** R (brms, lme4, afex, tidyverse), Python (Tensorflow, PyTorch, sklearn, scipy, numpy, pandas), Stan, SPSS, Excel
 - **Visualization:** R (ggplot2, plotly, rgl, shiny, gganimate), Python (matplotlib, seaborn)
-- **Writing:** LaTeX (KOMA, tikZ), Markdown, RMarkdown
+- **Writing & Documentation:** LaTeX (KOMA, tikZ), Markdown, RMarkdown, Jupyter, sphinx, roxygen
 
 ----
 
