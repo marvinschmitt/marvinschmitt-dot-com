@@ -417,8 +417,9 @@ pre code{
     line-height:1.7;
     font-size:18px;
     line-height:1.1;
+    color:#a88400;
     display:block;
-    font-weight:300;
+    font-weight:bold;
     margin:10px 0 0
 }
 @media only screen and (min-width:768px){
@@ -488,10 +489,10 @@ pre code{
     margin-bottom:10px
 }
 .post-preview>.post-meta>a, .post-preview>.post-meta{
-    font-family:Lora,'Times New Roman',serif;
-    color:gray;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#a88400;
     font-size:17px;
-    font-style:italic;
+    font-weight:bold;
     margin-top:0
 }
 
