@@ -4,7 +4,7 @@ author: Marvin
 date: '2022-05-20'
 tags: 
   - News
-description: 'For the past years, my homepage was just a placeholder. It served a single purpose: ...'
+description: 'For the past years, my homepage was just a placeholder. It served a single purpose: People who enter the domain of my email address in their browser should not look at some weird empty page. So here we go!'
 image: 'img/banners/hello-world-bg.jpg'
 layout: post
 ---
