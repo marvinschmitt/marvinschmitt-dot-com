@@ -1,4 +1,4 @@
-baseurl = "https://marvinschmitt.com"
+baseurl = "https://marvinschmitt.netlify.app"
 title = "Marvin Schmitt"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
@@ -89,8 +89,12 @@ home = ["HTML", "RSS", "Algolia"]
   
 
   [[params.addtional_menus]]
-  title =  "Publications"
-  href =  "/top/publications/"
+  title =  "Portfolio"
+  href =  "/top/portfolio/"
+  
+  [[params.addtional_menus]]
+  title =  "Projects"
+  href =  "/top/projects/"
   
   [[params.addtional_menus]]
   title =  "About Me"
