@@ -14,10 +14,10 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/bg_trees.png"
-  SEOTitle = "Marvin Schmitt"
-  description = "Website of Marvin Schmitt"
+  SEOTitle = "Marvin Schmitt | Homepage and Blog"
+  description = "Bayesian Statistics | Probabilistic Deep Learning | Visualization | Psychology"
   keyword = "Probabilistic Machine Learning, Bayesian Statistics, Visualization, Psychology"
-  slogan = "Bayesian Statistics | Probabilistic Deep Learning | Psychology"
+  slogan = "Bayesian Statistics | Probabilistic Deep Learning | Visualization | Psychology"
 
   image_404 = "img/404_error.png"
   title_404 = "404: Not Found."
