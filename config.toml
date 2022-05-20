@@ -19,7 +19,7 @@ home = ["HTML", "RSS", "Algolia"]
   keyword = "Probabilistic Machine Learning, Bayesian Statistics, Visualization, Psychology"
   slogan = "Bayesian Statistics | Probabilistic Deep Learning | Psychology"
 
-  image_404 = "img/404_error.jpg"
+  image_404 = "img/404_error.png"
   title_404 = "404: Not Found."
   omit_categories = false
 
