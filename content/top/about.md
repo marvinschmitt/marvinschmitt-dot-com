@@ -66,7 +66,7 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 - Exercise **Statistics II**, Fresenius University of Applied Sciences, Heidelberg
   - Lecturer | summer term 2022, winter term 2021/22, summer term 2021, winter term 2020/21
 - Seminar **Introduction to Statistics with R** for PhD researchers, University of Heidelberg
-  - Lecturer | winter term 2021/22
+  - Lecturer | winter term 2021/22 | [Material on GitHub](https://github.com/marvinschmitt/IntroStatisticsR)
 - Exercise **Statistics I**, Fresenius University of Applied Sciences, Heidelberg
   - Lecturer | summer term 2021
 - Seminar **Communication Techniques**, Fresenius University of Applied Sciences, Wiesbaden
