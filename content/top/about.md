@@ -20,7 +20,7 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 
 #### current
 
-- **Ph.D. in Bayesian Statistics** (since 2021)
+- **Ph.D. Researcher in Bayesian Statistics** (since 2021)
   - Cluster of Excellence SimTech, University of Stuttgart, Germany
   - Junior Research Group for Bayesian Statistics, Dr. Paul-Christian Bürkner
   - Focus: Bayesian model comparison, probabilistic machine learning, simulation-based inference
@@ -66,7 +66,7 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 - Exercise **Statistics II**, Fresenius University of Applied Sciences, Heidelberg
   - Lecturer | summer term 2022, winter term 2021/22, summer term 2021, winter term 2020/21
 - Seminar **Introduction to Statistics with R** for PhD researchers, University of Heidelberg
-  - Lecturer | winter term 2021/22 | [Material on GitHub](https://github.com/marvinschmitt/IntroStatisticsR)
+  - Lecturer | winter term 2021/22 | [Course GitHub Repository](https://github.com/marvinschmitt/IntroStatisticsR) | [Course Website](https://marvinschmitt.github.io/IntroStatisticsR/)
 - Exercise **Statistics I**, Fresenius University of Applied Sciences, Heidelberg
   - Lecturer | summer term 2021
 - Seminar **Communication Techniques**, Fresenius University of Applied Sciences, Wiesbaden
