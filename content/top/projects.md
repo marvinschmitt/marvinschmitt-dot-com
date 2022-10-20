@@ -5,7 +5,7 @@
 
 ----
 
-#### Meta-Uncertatinty
+#### Meta-Uncertainty in Bayesian Model Comparison
 
 <img src="/img/meta_uncertainty_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"/>
 
