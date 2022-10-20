@@ -1,6 +1,6 @@
 ## About Me
 
-I am a Computer Scientist and Psychologist. I am currently working as a PhD researcher in Bayesian Statistics at the Cluster of Excellence SimTech, University of Stuttgart.
+I am a *Data and Computer Scientist* and a *Psychologist*. I am currently working as a PhD researcher in Bayesian Statistics at the Cluster of Excellence SimTech, University of Stuttgart. My main scientific interests revolve around Bayesian statistics and deep learning.
 
 ---
 
@@ -9,6 +9,7 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 - [Education](#education)
 - [Publications](#publications)
 - [Teaching](#teaching)
+- [Talks](#talks)
 - [Workshops and Training](#workshops)
 - [Software Contributions](#software)
 - [Skills](#skills)
@@ -52,7 +53,8 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 
 #### Preprints in review
 
-- **Schmitt, M.**, Bürkner, P. C., Köthe, U., & Radev, S. (in review). [Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks](https://arxiv.org/abs/2112.08866). *arXiv preprint*. [Code](https://github.com/marvinschmitt/ModelMisspecificationBF)
+- **Schmitt, M.**, Radev, S. T., & Bürkner, P.-C. (in review). [Meta-Uncertainty in Bayesian Model Comparison](https://arxiv.org/abs/2210.07278). *arXiv preprint*. [Code](https://github.com/marvinschmitt/MetaUncertaintyPaper)
+- **Schmitt, M.**, Bürkner, P.-C., Köthe, U., & Radev, S. T (in review). [Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks](https://arxiv.org/abs/2112.08866). *arXiv preprint*. [Code](https://github.com/marvinschmitt/ModelMisspecificationBF)
 
 
 ----
@@ -82,6 +84,12 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 
 ----
 
+## Talks {#talks}
+
+- _AI Office Hours: Where does AI begin?_, Cyber Valley Public Engagement, [Announcement](https://cyber-valley.de/en/events/KI-Sprechstunde-2022-02)
+
+----
+
 ## Workshops and Training {#workshops}
 
 - Group Coaching, Fresenius University of Applied Sciences, Frankfurt
@@ -93,7 +101,7 @@ I am a Computer Scientist and Psychologist. I am currently working as a PhD rese
 
 #### Python
 
-- Radev et al. (2020): `BayesFlow`: Available on [GitHub](https://github.com/stefanradev93/BayesFlow)
+- Radev et al. (2020): `BayesFlow`: Available at [GitHub](https://github.com/stefanradev93/BayesFlow)
 
 ----
 
