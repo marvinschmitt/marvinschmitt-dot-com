@@ -1,6 +1,6 @@
 ## About Me
 
-I am a *Data and Computer Scientist* and a *Psychologist*. I am currently working as a PhD researcher in Bayesian Statistics at the Cluster of Excellence SimTech, University of Stuttgart. My main scientific interests revolve around Bayesian statistics and deep learning.
+I am a *Data and Computer Scientist* and a *Psychologist*. I am currently working as a PhD researcher in Bayesian Statistics at the Cluster of Excellence SimTech, University of Stuttgart. My main scientific interests revolve around Bayesian statistics and deep learning. Lifelong learning is arguably one of my greatest passions, head-to-head with making music.
 
 ---
 
@@ -27,12 +27,13 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
   - Focus: Bayesian model comparison, probabilistic machine learning, simulation-based inference
   - Tools: R, Python, Stan
 
+#### completed
+
 - **M.Sc. in Data and Computer Science** (since 2020)
   - University of Heidelberg, Germany
   - Focus: Deep learning, probabilistic machine learning, scientific visualization
-  - Tools: Python, C++, Java
-
-#### completed
+  - Master thesis: *Visualization of Distribution and Uncertainty of Posterior Model Probabilities*
+  - Tools: Python, C++, Java, OpenGL
 
 - **M.Sc. in Psychology** (2018-2021)
   - University of Heidelberg, Germany
@@ -107,14 +108,15 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
 
 ## Skills {#skills}
 
-- **Languages:** German (native), English (fluent), French (basic)
-- **Programming Stack:** Python, R, HTML, CSS, C++
-- **Data Science & Statistics:** R (brms, lme4, afex, tidyverse), Python (Tensorflow, PyTorch, sklearn, scipy, numpy, pandas), Stan, SPSS, Excel
+- **Languages:** German (native), English (fluent), French (basic), Latin (5 years, please don't ever ask), Norwegian (basic)
+- **Programming Stack:** Python, R, occasionally: C++, JavaScript, HTML, CSS
+- **Data Science & Statistics:** R (brms, lme4, afex, tidyverse), Python (Tensorflow/keras, PyTorch, sklearn, scipy, numpy, pandas), Stan, SPSS, Excel
 - **Visualization:** R (ggplot2, plotly, rgl, shiny, gganimate), Python (matplotlib, seaborn)
-- **Writing & Documentation:** LaTeX (KOMA, tikZ), Markdown, RMarkdown, Jupyter, sphinx, roxygen
+- **Writing & Documentation:** LaTeX (KOMA, tikZ), Markdown, RMarkdown, Jupyter, sphinx, roxygen, Quarto
 
 ----
 
 ## Peer Reviewer {#reviewer}
 
 - International Conference on Machine Learning (ICML) 2022
+- Artificial Intelligence and Statistics (AISTATS) 2023
