@@ -90,11 +90,11 @@ home = ["HTML", "RSS", "Algolia"]
 
   [[params.addtional_menus]]
   title =  "Projects"
-  href =  "/projects/"
+  href =  "/top/projects/"
   
   [[params.addtional_menus]]
   title =  "About Me"
-  href =  "/about/"
+  href =  "/top/about/"
 
 [outputFormats.Algolia]
 baseName = "algolia"
