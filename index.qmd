@@ -18,6 +18,10 @@ about:
     - icon: mastodon
       text: Mastodon
       href: https://mastodon.online/@MarvinSchmitt
+    - icon: envelope
+      aria-label: email
+      text: Email
+      href: "mailto:mail.marvinschmitt@gmail.com"
 ---
 
 :::{#about-heading}

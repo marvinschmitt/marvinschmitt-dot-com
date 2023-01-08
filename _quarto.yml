@@ -4,12 +4,31 @@ project:
 website:
   title: "Marvin Schmitt"
   description: "Marvin Schmitt is a Data & Computer Scientist and Psychologist, currently working as a PhD researcher in Bayesian Statistics and Probabilisitic Machine Learning."
+  site-url: "https://www.marvinschmitt.com"
+  image: img/marvin_foto.png
+  repo-url: "https://github.com/marvinschmitt/marvinschmitt-dot-com"
+  repo-branch: main
   google-analytics: "G-N36VLTEM79"
   cookie-consent: true
+#  sidebar: 
+#    logo: img/marvin_foto_round.png
+#    style: floating
+#    contents:
+#      - section: "Marvin Schmitt"
+#      - section: "PhD researcher in Bayesian Statistics. Computer Scientist and Psychologist."
+#    tools:
+#      - icon: github
+#        href: https://github.com/marvinschmitt
+#      - icon: twitter
+#        href: https://twitter.com/MarvinSchmittML
+#      - icon: envelope
+#        aria-label: email
+#        href: "mailto:mail.marvinschmitt@gmail.com"
   search: 
     location: navbar
     type: textbox
   navbar:
+    pinned: true
     left:
       - text: Blog
         href: blog/index.qmd
@@ -18,6 +37,8 @@ website:
       - text: About Me
         href: index.qmd
     right:
+      - icon: rss
+        href: index.xml
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
       - icon: linkedin
@@ -26,11 +47,13 @@ website:
         href: https://github.com/marvinschmitt
       - icon: mastodon
         href: https://mastodon.online/@MarvinSchmitt
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mail.marvinschmitt@gmail.com"
   favicon: img/favicon.ico
   twitter-card: 
     creator: "@MarvinSchmittML"
     image: img/marvin_foto.png
-  site-url: https://www.marvinschmitt.com
   page-footer: 
     left: "Copyright 2023, Marvin Schmitt" 
     right: 
