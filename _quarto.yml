@@ -6,9 +6,9 @@ website:
   navbar:
     right:
       - text: Blog
-        href: blog.qmd
+        href: blog/index.qmd
       - text: Projects
-        href: projects.qmd
+        href: projects/index.qmd
       - text: About Me
         href: index.qmd
       - icon: twitter
@@ -26,7 +26,7 @@ website:
     left: "Copyright 2023, Marvin Schmitt" 
     right: 
       - text: Impressum
-        href: impressum.qmd
+        href: impressum/index.qmd
   
 format:
   html:
