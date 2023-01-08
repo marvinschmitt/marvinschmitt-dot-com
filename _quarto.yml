@@ -6,13 +6,14 @@ website:
   google-analytics: "G-N36VLTEM79"
   cookie-consent: true
   navbar:
-    right:
+    left:
       - text: Blog
         href: blog/index.qmd
       - text: Projects
         href: projects/index.qmd
       - text: About Me
         href: index.qmd
+    right:
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
       - icon: linkedin
@@ -32,7 +33,8 @@ website:
   
 format:
   html:
+    fontsize: 1.2em
     theme:
-      light: flatly
+      light: cosmo
       dark: darkly
     css: styles.css
