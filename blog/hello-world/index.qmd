@@ -11,6 +11,7 @@ citation:
 image: hello-world-thumbnail.jpeg
 reference-location: margin
 draft: false
+title-block-banner: hello-world-bg.jpg
 ---
 
 (Photo by [Markus Spiske](https://www.pexels.com/photo/display-coding-programming-development-1921326/))

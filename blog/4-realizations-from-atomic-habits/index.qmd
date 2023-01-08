@@ -11,6 +11,7 @@ citation:
 image: atomic_habits_thumbnail.jpeg
 reference-location: margin
 draft: false
+title-block-banner: bg_trees.png
 ---
 
 
