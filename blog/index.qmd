@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+comments: false
 listing: 
   contents: 
     - "*.qmd"

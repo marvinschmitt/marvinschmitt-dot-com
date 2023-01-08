@@ -1,5 +1,6 @@
 ---
 title: "Marvin Schmitt"
+comments: false
 image: img/marvin_foto_round.png
 about:
   id: about-heading

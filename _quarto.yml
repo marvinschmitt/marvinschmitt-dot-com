@@ -6,6 +6,9 @@ website:
   description: "Marvin Schmitt is a Data & Computer Scientist and Psychologist, currently working as a PhD researcher in Bayesian Statistics and Probabilisitic Machine Learning."
   google-analytics: "G-N36VLTEM79"
   cookie-consent: true
+  search: 
+    location: navbar
+    type: textbox
   navbar:
     left:
       - text: Blog
@@ -33,6 +36,13 @@ website:
     right: 
       - text: Impressum
         href: impressum/index.qmd
+  comments:
+    giscus:
+      repo: marvinschmitt/marvinschmitt-dot-com
+      category: Announcements
+      loading: lazy
+      input-position: bottom
+      language: en
   
 format:
   html:
