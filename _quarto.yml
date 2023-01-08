@@ -35,6 +35,6 @@ format:
   html:
     fontsize: 1.2em
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     css: styles.css
