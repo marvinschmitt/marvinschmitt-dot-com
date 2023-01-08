@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Marvin Schmitt"
+  google-analytics: "G-N36VLTEM79"
   navbar:
     right:
       - text: Blog
@@ -32,7 +33,3 @@ format:
   html:
     theme: flatly
     css: styles.css
-
-execute:
-  freeze: auto
-
