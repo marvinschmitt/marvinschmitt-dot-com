@@ -30,8 +30,7 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
 
 :::
 
-::: {.column-margin}
-#### Content
+
 
 - [Education](#education)
 - [Publications](#publications)
@@ -41,8 +40,6 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
 - [Software Contributions](#software)
 - [Skills](#skills)
 - [Peer Reviewer](#reviewer)
-
-:::
 
 
 ## Education{#education}
