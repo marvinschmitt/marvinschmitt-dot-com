@@ -4,6 +4,7 @@ project:
 website:
   title: "Marvin Schmitt"
   google-analytics: "G-N36VLTEM79"
+  cookie-consent: true
   navbar:
     right:
       - text: Blog
@@ -31,5 +32,7 @@ website:
   
 format:
   html:
-    theme: flatly
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
