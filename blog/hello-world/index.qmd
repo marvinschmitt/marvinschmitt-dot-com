@@ -1,0 +1,24 @@
+---
+title: "Hello World!"
+description: "For the past years, my homepage has just been a placeholder. It served a single purpose: People who enter the domain of my email address in their browser should not look at some weird empty page. So here we go!"
+author:
+  - name: Marvin Schmitt
+    url: https://www.marvinschmitt.com/
+date: 05-20-2022
+categories: [News] # self-defined categories
+citation: 
+  url: https://www.marvinschmitt.com/blog/hello-world
+image: hello-world-thumbnail.jpeg
+reference-location: margin
+draft: false
+---
+
+(Photo by [Markus Spiske](https://www.pexels.com/photo/display-coding-programming-development-1921326/))
+
+For the past years, my homepage was just a placeholder. It served a single purpose: People who enter the domain of my email address in their browser should not look at some weird empty page. So here we go!
+
+Thanks to the incredible Quarto project it was really a matter of a few hours to set everything up. Thank you!
+
+BTW: The top banner is a stock photo. If I ever produce code that looks anything like this dense mess, please remind me to quit programming forever.
+
+As pretty much every aspiring early career researcher, I am obviously planning to publish valuable, insightful, and thought-provoking blog posts regularly. See you ~~tomorrow~~ ~~next week~~ ~~in a month~~ at some time for the first actual post. Cheers!
