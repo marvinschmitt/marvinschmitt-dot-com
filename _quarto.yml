@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Marvin Schmitt"
+  description: "Marvin Schmitt is a Data & Computer Scientist and Psychologist, currently working as a PhD researcher in Bayesian Statistics and Probabilisitic Machine Learning."
   google-analytics: "G-N36VLTEM79"
   cookie-consent: true
   navbar:
@@ -23,7 +24,9 @@ website:
       - icon: mastodon
         href: https://mastodon.online/@MarvinSchmitt
   favicon: img/favicon.ico
-  twitter-card: true
+  twitter-card: 
+    creator: "@MarvinSchmittML"
+    image: img/marvin_foto.png
   site-url: https://www.marvinschmitt.com
   page-footer: 
     left: "Copyright 2023, Marvin Schmitt" 
