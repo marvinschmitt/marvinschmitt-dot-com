@@ -10,7 +10,7 @@ website:
       - text: Projects
         href: projects.qmd
       - text: About Me
-        href: about.qmd
+        href: index.qmd
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
       - icon: linkedin
