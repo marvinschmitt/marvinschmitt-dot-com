@@ -5,7 +5,8 @@ author:
   - name: Marvin Schmitt
     url: https://www.marvinschmitt.com/
 date: 05-20-2022
-categories: [News] # self-defined categories
+categories: 
+  - news
 citation: 
   url: https://www.marvinschmitt.com/blog/hello-world
 image: hello-world-thumbnail.jpeg

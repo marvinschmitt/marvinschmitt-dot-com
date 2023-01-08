@@ -4,8 +4,10 @@ description: "Discover the Power of Atomic Habits: A Scientific Approach to Buil
 author:
   - name: Marvin Schmitt
     url: https://www.marvinschmitt.com/
-date: 01-07.2023
-categories: [Books] # self-defined categories
+date: 01-07-2023
+categories: 
+  - psychology
+  - books
 citation: 
   url: https://www.marvinschmitt.com/blog/4-realizations-from-atomic-habits
 image: atomic_habits_thumbnail.jpeg
