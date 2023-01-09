@@ -19,8 +19,10 @@ listing:
   fields: [image, date, title]
 ---
 
+:::{.d-sm-none .d-md-block}
 ::: {.column-screen}
 {{< include html/landing_page_banner.html >}}
+:::
 :::
 
 ::: {.grid}
