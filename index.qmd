@@ -1,35 +1,51 @@
 ---
 comments: false
+page-layout: full
+format:
+  html: 
+    margin-top: 0em
+    margin-bottom: 0em
+include-in-header: 
+  file: html/landing_page_style.css
+listing:
+  id: blog-listing
+  contents:     
+    - blog
+    - "!blog/index.qmd"
+  type: grid
+  sort: "date desc"
+  max-items: 3
+  grid-columns: 3
+  fields: [image, date, title]
 ---
+
+::: {.column-screen}
+{{< include html/landing_page_banner.html >}}
+:::
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-6}
-![](img/marvin_foto_round.png)
+::: {.g-col-12 .g-col-md-4}
+![](img/marvin_foto_round.png){fig-alt="A portrait of the website author, Marvin Schmitt."}
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-8}
 # Hi, I'm Marvin Schmitt.
 
 I am a *Data and Computer Scientist* and a *Psychologist*. I am currently working as a PhD researcher in Bayesian Statistics at the Cluster of Excellence SimTech, University of Stuttgart. My main scientific interests revolve around Bayesian statistics and deep learning. Lifelong learning is one of my greatest passions, head-to-head with making music.
 
 :::
-
 :::
 
 
-::: {.column-margin}
 
-- [Education](#education)
-- [Publications](#publications)
-- [Teaching](#teaching)
-- [Talks](#talks)
-- [Workshops and Training](#workshops)
-- [Software Contributions](#software)
-- [Skills](#skills)
-- [Peer Reviewer](#reviewer)
-
+## Recent Blog Posts
+:::{#blog-listing}
 :::
+
+---
+
+# About Me
 
 ## Education{#education}
 

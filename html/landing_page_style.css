@@ -1,0 +1,14 @@
+<style>
+#quarto-content{
+  margin:0 !important;
+} 
+
+#quarto-content > *{
+    padding-top: 0;
+}
+
+main{
+  margin-top:0 !important;
+}
+
+</style>

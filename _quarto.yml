@@ -69,7 +69,7 @@ website:
   
 format:
   html:
-    fontsize: 1.2em
+    fontsize: 1.1em
     theme:
       light: flatly
       dark: darkly
