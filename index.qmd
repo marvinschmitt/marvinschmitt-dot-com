@@ -19,7 +19,7 @@ listing:
   fields: [image, date, title]
 ---
 
-:::{.d-none .d-sm-none .d-md-block}
+:::{.d-none}
 ::: {.column-screen}
 {{< include html/landing_page_banner.html >}}
 :::
