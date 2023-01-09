@@ -38,7 +38,7 @@ website:
         href: index.qmd
     right:
       - icon: rss
-        href: index.xml
+        href: blog/index.xml
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
       - icon: linkedin
