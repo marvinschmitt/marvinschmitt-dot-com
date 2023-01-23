@@ -52,6 +52,7 @@ website:
         href: "mailto:mail.marvinschmitt@gmail.com"
   favicon: img/favicon.ico
   twitter-card: 
+    title: "Marvin Schmitt | Website & Blog"
     creator: "@MarvinSchmittML"
     image: img/marvin_foto.png
   page-footer: 
