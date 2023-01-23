@@ -83,9 +83,13 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
   
 ## Publications {#publications}
 
+#### Accepted
+
+- **Schmitt, M.**, Radev, S. T., & Bürkner, P.-C. (accepted). [Meta-Uncertainty in Bayesian Model Comparison](https://arxiv.org/abs/2210.07278). Artificial Intelligence and Statistics (AISTATS) Conference Proceedings. [Code](https://github.com/marvinschmitt/MetaUncertaintyPaper)
+
 #### Preprints in review
 
-- **Schmitt, M.**, Radev, S. T., & Bürkner, P.-C. (in review). [Meta-Uncertainty in Bayesian Model Comparison](https://arxiv.org/abs/2210.07278). *arXiv preprint*. [Code](https://github.com/marvinschmitt/MetaUncertaintyPaper)
+
 - **Schmitt, M.**, Bürkner, P.-C., Köthe, U., & Radev, S. T (in review). [Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks](https://arxiv.org/abs/2112.08866). *arXiv preprint*. [Code](https://github.com/marvinschmitt/ModelMisspecificationBF)
 
 
