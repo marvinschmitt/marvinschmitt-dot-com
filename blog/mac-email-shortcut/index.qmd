@@ -23,12 +23,10 @@ I have a `@@_` shortcut for every email address I use. In this short blog post, 
 
 ⭐ Sounds like a plan? Let's go! ⭐
 
-1.   Go to `System Preferences` and select the `Keyboard` submenu.
-
+1.   Go to `System Preferences` and select the `Keyboard` submenu.\
     ![](img/screenshot_1.png)
 
-2.  Navigate to the `Text` tab and hit the `+` button to add a new shortcut.
-
+2.  Navigate to the `Text` tab and hit the `+` button to add a new shortcut.\
     ![](img/screenshot_2.png)
 
 3.  Add the *Shortcut* to the "Replace" column, and the full email address to the "With" column. I recommend to prefix the shortcut with `@@` because it makes it practically impossible to trigger the shortcut accidentally. Yet, it's reminiscent of an email address.\
