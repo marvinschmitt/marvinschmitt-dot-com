@@ -9,7 +9,7 @@ categories:
   - tech
 citation: 
   url: https://www.marvinschmitt.com/blog/mac-email-shortcut
-image: mac_email_thumbnail.jpg
+image: mac_email_thumbnail.png
 reference-location: margin
 draft: false
 title-block-banner: bg_trees.png
