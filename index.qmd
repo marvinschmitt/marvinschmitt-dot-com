@@ -27,7 +27,7 @@ listing:
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](img/marvin_foto_round.png){fig-alt="A portrait of the website author, Marvin Schmitt."}
+![](img/marvin_foto_round.png){fig-alt="A portrait of the website author, Marvin Schmitt"}
 :::
 
 ::: {.g-col-12 .g-col-md-8}
