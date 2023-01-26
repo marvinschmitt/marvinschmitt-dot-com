@@ -2,8 +2,9 @@
 layout: page
 title: Curriculum vitae
 excerpt: My current CV
+comments: false
 date: 2023-01-26
-published-title: CV last updated
+published-title: "{{< fa rotate >}} CV last updated"
 execute:
   freeze: true  # never re-render during project render
 engine: knitr 
