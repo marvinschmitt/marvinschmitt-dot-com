@@ -38,7 +38,13 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
 :::
 :::
 
+
+## Recent Blog Posts
+:::{#blog-listing}
+:::
+
 ---
+
 
 ```{=html}
 <p class="text-center">
@@ -55,12 +61,5 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
   </a>
 </p>
 ```
-
----
-
-
-## Recent Blog Posts
-:::{#blog-listing}
-:::
 
 ---
