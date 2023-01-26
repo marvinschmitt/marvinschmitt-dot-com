@@ -69,6 +69,9 @@ website:
       input-position: bottom
       language: en
   
+execute:
+  freeze: true
+  
 format:
   html:
     fontsize: 1.1em
