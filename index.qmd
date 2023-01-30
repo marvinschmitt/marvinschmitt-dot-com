@@ -10,7 +10,7 @@ include-in-header:
 listing:
   id: blog-listing
   contents:     
-    - blog
+    - blog/**/**/index.qmd
     - "!blog/index.qmd"
   type: grid
   sort: "date desc"

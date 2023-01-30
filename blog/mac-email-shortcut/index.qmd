@@ -1,9 +1,6 @@
 ---
 title: "Quick hack: Mac email shortcut "
 description: "Create a custom keyboard shortcut for your email addresses on Mac."
-author:
-  - name: Marvin Schmitt
-    url: https://www.marvinschmitt.com/
 date: 01-24-2023
 categories: 
   - tech
@@ -12,7 +9,6 @@ citation:
 image: mac_email_thumbnail.png
 reference-location: margin
 draft: false
-title-block-banner: bg_trees.png
 ---
 
 <img src="img/email_shortcut.gif" width="100%"/>

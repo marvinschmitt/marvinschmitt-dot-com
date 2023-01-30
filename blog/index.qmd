@@ -6,12 +6,15 @@ page-layout: full
 
 listing:
   - id: posts_2023
-    contents: "2023/**/index.qmd"
+    contents: 
+      - "4-realizations-from-atomic-habits/index.qmd"
+      - "mac-email-shortcut/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
   - id: posts_2022
-    contents: "2022/**/index.qmd"
+    contents: 
+      - "hello-world/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
     
