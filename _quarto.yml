@@ -30,16 +30,16 @@ website:
       - text: CV
         href: cv/index.qmd
     right:
-      - icon: rss
-        href: blog/index.xml
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
-      - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
       - icon: github
         href: https://github.com/marvinschmitt
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
       - icon: mastodon
         href: https://mastodon.online/@MarvinSchmitt
+      - icon: rss
+        href: blog/index.xml
       - icon: envelope
         aria-label: email
         href: "mailto:mail.marvinschmitt@gmail.com"
