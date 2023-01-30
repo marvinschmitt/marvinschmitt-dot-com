@@ -42,24 +42,3 @@ I am a *Data and Computer Scientist* and a *Psychologist*. I am currently workin
 ## Recent Blog Posts
 :::{#blog-listing}
 :::
-
----
-
-
-```{=html}
-<p class="text-center">
-  <a class="btn btn-success btn-lg" href="/blog/index.html">
-    <i class="fa-solid fa-pencil"></i>&ensp;Blog
-  </a>
-  &ensp;&ensp;&ensp;
-  <a class="btn btn-success btn-lg" href="/projects/index.html">
-    <i class="fa-solid fa-diagram-project"></i>&ensp;Projects
-  </a>
-  &ensp;&ensp;&ensp;
-  <a class="btn btn-success btn-lg" href="/cv/index.html">
-    <i class="fa-solid fa-file-arrow-down"></i>&ensp;CV
-  </a>
-</p>
-```
-
----

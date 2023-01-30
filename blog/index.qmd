@@ -1,12 +1,37 @@
 ---
 title: "Blog"
-comments: false
-listing: 
-  contents: 
-    - "*.qmd"
-  type: grid # or `default` or `table`; each type has its own set of yaml options to include
-  sort: "date desc" # can also sort on more than one field
-  categories: true # allows you to sort posts by assigned categories 
-  feed: true
+author: ""
+title-block-banner: false
 page-layout: full
+
+listing:
+  - id: posts_2023
+    contents: "2023/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
+  - id: posts_2022
+    contents: "2022/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    
+toc-title: Year
+toc-location: right
+date-format: "MMMM D, YYYY"
+code-tools: false
+comments: false
 ---
+
+## 2023
+
+:::{#posts_2023}
+:::
+
+## 2022
+
+:::{#posts_2022}
+:::
+
+---
+
+The blog post listing is based on the website source of [Andrew Heiss](https://www.andrewheiss.com/), who has put together an incredible listing template under CC-BY-SA 4.0 license. Thank you!

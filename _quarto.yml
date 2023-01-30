@@ -1,32 +1,25 @@
 project:
   type: website
 
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
 website:
   title: "Marvin Schmitt"
   description: "Marvin Schmitt is a Data & Computer Scientist and Psychologist, currently working as a PhD researcher in Bayesian Statistics and Probabilisitic Machine Learning."
   site-url: "https://www.marvinschmitt.com"
   image: img/marvin_foto.png
+  
   repo-url: "https://github.com/marvinschmitt/marvinschmitt-dot-com"
   repo-branch: main
-  google-analytics: "G-N36VLTEM79"
-  cookie-consent: true
-#  sidebar: 
-#    logo: img/marvin_foto_round.png
-#    style: floating
-#    contents:
-#      - section: "Marvin Schmitt"
-#      - section: "PhD researcher in Bayesian Statistics. Computer Scientist and Psychologist."
-#    tools:
-#      - icon: github
-#        href: https://github.com/marvinschmitt
-#      - icon: twitter
-#        href: https://twitter.com/MarvinSchmittML
-#      - icon: envelope
-#        aria-label: email
-#        href: "mailto:mail.marvinschmitt@gmail.com"
+  
   search: 
     location: navbar
     type: textbox
+  
   navbar:
     pinned: true
     left:
@@ -36,8 +29,6 @@ website:
         href: projects/index.qmd
       - text: CV
         href: cv/index.qmd
-      - text: About Me
-        href: index.qmd
     right:
       - icon: rss
         href: blog/index.xml
@@ -52,22 +43,29 @@ website:
       - icon: envelope
         aria-label: email
         href: "mailto:mail.marvinschmitt@gmail.com"
+  
   favicon: img/favicon.ico
+  
   twitter-card: 
     creator: "@MarvinSchmittML"
     image: img/marvin_foto.png
+    
+  open-graph: 
+    image: img/marvin_foto.png
+    locale: en_US
+    
+  google-analytics: "G-N36VLTEM79"
+  cookie-consent: true
+  
   page-footer: 
-    left: "Copyright 2023, Marvin Schmitt" 
-    right: 
-      - text: Impressum
-        href: impressum/index.qmd
-  comments:
-    giscus:
-      repo: marvinschmitt/marvinschmitt-dot-com
-      category: Announcements
-      loading: lazy
-      input-position: bottom
-      language: en
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} 2023 Marvin Schmitt</span>
+      <span class="faux-block"><a href="https://github.com/marvinschmitt/marvinschmitt-dot-com">{{< fa brands github >}} Source Code</a></span>
+    center: |
+      <span class="faux-block"><a href="impressum/index.html">Impressum</a></span>
+    right: |
+      <span class="faux-block"> Designed with {{< fa heart >}}</span>
+      <span class="faux-block"> Built with <a href="https://quarto.org/">Quarto</a></span>
   
 execute:
   freeze: true
@@ -75,7 +73,13 @@ execute:
 format:
   html:
     fontsize: 1.1em
-    theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
+    theme: 
+      - flatly
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai

@@ -5,4 +5,34 @@
 freeze: true
 
 # Enable banner style title blocks
-title-block-banner: true
+title-block-banner: "../img/bg_trees_dark_banner.png"
+
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: left
+
+# Default knitr options
+execute:
+  echo: true
+  message: true
+  warning: true
+  
+format:   
+  html:
+    code-tools: true
+    comments:
+      giscus:
+        repo: marvinschmitt/marvinschmitt-dot-com
+        category: Announcements
+        loading: lazy
+        input-position: bottom
+        language: en
+    quarto-template-params:
+      banner-header-class: "blog-post"
+
+# Default author
+author:
+  - name: Marvin Schmitt
+    url: https://www.marvinschmitt.com/
+    orcid: 0000-0002-7967-4723

@@ -1,0 +1,42 @@
+---
+title: "Quick hack: Mac email shortcut "
+description: "Create a custom keyboard shortcut for your email addresses on Mac."
+date: 01-24-2023
+categories: 
+  - tech
+citation: 
+  url: https://www.marvinschmitt.com/blog/mac-email-shortcut
+image: mac_email_thumbnail.png
+reference-location: margin
+draft: false
+---
+
+<img src="img/email_shortcut.gif" width="100%"/>
+
+👆 That shortcut has saved me a bunch of time, and many many typos in email addresses. Whenever I type `@@g`, my computer automatically changes that to `mail.marvinschmitt@gmail.com`.
+
+I have a `@@_` shortcut for every email address I use. In this short blog post, I'll give you a quick tutorial on how to set up these custom shortcuts on a Mac. It's probably gonna take you less than five minutes, and save you way more than that in return.
+
+⭐ Sounds like a plan? Let's go! ⭐
+
+1.   Go to `System Preferences` and select the `Keyboard` submenu.\
+    ![](img/screenshot_1.png)
+
+2.  Navigate to the `Text` tab and hit the `+` button to add a new shortcut.\
+    ![](img/screenshot_2.png)
+
+3.  Add the *Shortcut* to the "Replace" column, and the full email address to the "With" column. I recommend to prefix the shortcut with `@@` because it makes it practically impossible to trigger the shortcut accidentally. Yet, it's reminiscent of an email address.\
+    ![](img/screenshot_3.png)
+
+4.  Repeat, profit.\
+    ![](img/screenshot_4.png)
+
+🏁 That's it! 🥳
+
+You can use this method to create many more custom shortcuts, but my primary use case are all my email addresses. What are your ideas for custom shortcuts? I'd love to hear about them in the comment section below 👇
+
+PS: This method has one crucial caveat. When I'm typing on someone else's computer, I regularly type `@@g` on laser speed, followed by a brief moment of confusion, and a brief moment of disappointment when the shortcut doesn't fire. But well, *He giveth and he taketh away* 🤷
+
+\-\--
+
+Thumbnail photo by Maksim Goncharenok: https://www.pexels.com/photo/gold-letter-y-on-black-background-5605061/

@@ -1,17 +1,10 @@
 ---
 title: Projects
 comments: false
+toc-location: right
 ---
 
-
-#### Content
-
-- [Meta-Uncertainty in Bayesian Model Comparison](#meta-uncertainty-BMC)
-- [Detecting Model Misspecification in Amortized SBI](#sbi-model-misspecification)
-
-----
-
-#### Meta-Uncertainty in Bayesian Model Comparison{#meta-uncertainty-BMC}
+## Meta-Uncertainty in Bayesian Model Comparison{#meta-uncertainty-BMC}
 
 <img src="/img/meta_uncertainty_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"/>
 
@@ -20,7 +13,7 @@ Meta-Uncertainty represents a fully probabilistic framework for quantifying the 
 
 ----
 
-#### Detecting Model Misspecification in Amortized Simulation-Based Inference with Neural Networks{#sbi-model-misspecification}
+## Detecting Model Misspecification in Amortized Simulation-Based Inference with Neural Networks{#sbi-model-misspecification}
 
 <img src="/img/model_misspecification_amortized_sbi.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2112.08866', 'blank');"/>
 

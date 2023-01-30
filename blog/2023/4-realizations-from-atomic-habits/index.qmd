@@ -1,9 +1,6 @@
 ---
 title: "4 Realizations from Atomic Habits"
 description: "Discover the Power of Atomic Habits: A Scientific Approach to Building Good Habits and Breaking Bad Ones. Let me explain ..."
-author:
-  - name: Marvin Schmitt
-    url: https://www.marvinschmitt.com/
 date: 01-07-2023
 categories: 
   - psychology
@@ -11,9 +8,7 @@ categories:
 citation: 
   url: https://www.marvinschmitt.com/blog/4-realizations-from-atomic-habits
 image: atomic_habits_thumbnail.jpeg
-reference-location: margin
 draft: false
-title-block-banner: bg_trees.png
 ---
 
 

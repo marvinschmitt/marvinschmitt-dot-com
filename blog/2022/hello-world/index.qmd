@@ -1,9 +1,6 @@
 ---
 title: "Hello World!"
 description: "For the past years, my homepage has just been a placeholder. It served a single purpose: People who enter the domain of my email address in their browser should not look at some weird empty page. So here we go!"
-author:
-  - name: Marvin Schmitt
-    url: https://www.marvinschmitt.com/
 date: 05-20-2022
 categories: 
   - news
