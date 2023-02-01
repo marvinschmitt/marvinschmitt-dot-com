@@ -136,9 +136,14 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
+#title-block-header.quarto-title-block.default .description, .title{
+  color:$white;
+}
+
 .blog-post {
     .quarto-title .quarto-categories {
         margin-top: 1.5em;
+        color: $white;
 
         .quarto-category {
             background-color: shift-color($purple, -25%);
