@@ -66,6 +66,9 @@ website:
 execute:
   freeze: true
   
+filters:
+  - html/newpagelink.lua
+  
 format:
   html:
     fontsize: 1.1em
@@ -73,7 +76,6 @@ format:
       - flatly
       - html/styles.scss
     toc: false
-    code-link: true
     anchor-sections: true
     fig-cap-location: margin
     reference-location: margin
