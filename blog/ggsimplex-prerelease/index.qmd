@@ -1,7 +1,7 @@
 ---
 title: "Pre-releasing the {ggsimplex} R package"
 description: "Here's a quick rundown of this ggplot extension for point plots and density plots in a (2-)simplex. These can be used to visualize compartmental data, posterior model probabilities, or densities with support on a probability simplex."
-date: 02-04-2023
+date: 02-03-2023
 categories: 
   - statistics
   - R
