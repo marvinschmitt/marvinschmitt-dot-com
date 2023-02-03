@@ -1,13 +1,13 @@
 ---
 title: "Pre-releasing the {ggsimplex} R package"
-description: "Here's a quick rundown of this ggplot extension for scatter and density plots in a (2-)simplex."
+description: "Here's a quick rundown of this ggplot extension for point plots and density plots in a (2-)simplex. These can be used to visualize compartmental data, posterior model probabilities, or densities with support on a probability simplex."
 date: 02-04-2023
 categories: 
   - statistics
   - R
   - programming
   - visualization
-image: ggsimplex-thumbnail.png
+image: figures/ggsimplex-hexsticker-thumbnail.png
 draft: false
 
 format: 
@@ -23,9 +23,12 @@ execute:
 knitr::opts_chunk$set(fig.align = "center", fig.height=3)
 ```
 
+::: {.column-margin}
+![](figures/ggsimplex-hexsticker.png)
+:::
 
 Our latest manuscript [Meta-Uncertainty in Bayesian Model Comparison](https://arxiv.org/pdf/2210.07278.pdf) has been accepted to AISTATS 2023! That's a reason to celebrate 🎉 At the same time, this means that a lot of people hear about the project and some are interested in the code. So far, so good. Of course, we have released the software code for the paper in a [public GitHub repository](https://github.com/marvinschmitt/MetaUncertaintyPaper).
-But there is one problem. The fancy triangular density plots use an internal and highly experimental ggplot extension: [`{ggsimplex} (GitHub source)`](https://github.com/marvinschmitt/ggsimplex)
+But there is one problem. The fancy triangular density plots use an internal and highly experimental ggplot extension: [`{ggsimplex}`](https://github.com/marvinschmitt/ggsimplex) ([GitHub source](https://github.com/marvinschmitt/ggsimplex))
 
 We planned to release [`{ggsimplex}`](https://github.com/marvinschmitt/ggsimplex) at some point next year, but now we feel like at least the experimental version should be made public for the AISTATS paper. This blog post gives a brief rundown of the package.
 
