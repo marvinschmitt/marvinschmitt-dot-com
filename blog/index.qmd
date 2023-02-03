@@ -7,6 +7,7 @@ page-layout: full
 listing:
   - id: posts_2023
     contents: 
+      - "ggsimplex-prerelease/index.qmd"
       - "4-realizations-from-atomic-habits/index.qmd"
       - "mac-email-shortcut/index.qmd"
     sort: "date desc"
