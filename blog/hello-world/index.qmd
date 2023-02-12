@@ -4,8 +4,6 @@ description: "For the past years, my homepage has just been a placeholder. It se
 date: 05-20-2022
 categories: 
   - news
-citation: 
-  url: https://www.marvinschmitt.com/blog/hello-world
 image: hello-world-thumbnail.jpeg
 reference-location: margin
 draft: false
