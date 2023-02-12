@@ -30,7 +30,8 @@ format:
         language: en
     quarto-template-params:
       banner-header-class: "blog-post"
-
+    include-after-body: ../html/blog_footer.html
+    
 # Default author
 author:
   - name: Marvin Schmitt

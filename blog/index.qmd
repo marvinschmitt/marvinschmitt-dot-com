@@ -24,6 +24,8 @@ toc-location: right
 date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
+html:
+  include-after-body: false
 ---
 
 ## 2023

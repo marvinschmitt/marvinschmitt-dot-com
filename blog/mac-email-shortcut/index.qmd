@@ -4,8 +4,6 @@ description: "Create a custom keyboard shortcut for your email addresses on Mac.
 date: 01-24-2023
 categories: 
   - tech
-citation: 
-  url: https://www.marvinschmitt.com/blog/mac-email-shortcut
 image: mac_email_thumbnail.png
 reference-location: margin
 draft: false

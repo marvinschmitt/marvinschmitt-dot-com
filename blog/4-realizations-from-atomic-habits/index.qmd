@@ -5,9 +5,7 @@ date: 01-07-2023
 categories: 
   - psychology
   - books
-citation: 
-  url: https://www.marvinschmitt.com/blog/4-realizations-from-atomic-habits
-image: atomic_habits_thumbnail.jpeg
+image: atomic_habits_thumbnail.png
 draft: false
 ---
 

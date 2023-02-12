@@ -10,10 +10,11 @@ include-in-header:
 listing:
   id: blog-listing
   contents:     
-    - blog/**/**/index.qmd
-    - "!blog/index.qmd"
-  type: grid
+    - "blog/ggsimplex-prerelease/index.qmd"
+    - "blog/mac-email-shortcut/index.qmd"
+    - "blog/4-realizations-from-atomic-habits/index.qmd"
   sort: "date desc"
+  type: grid
   max-items: 3
   grid-columns: 3
   fields: [image, date, title]
@@ -34,11 +35,20 @@ listing:
 # Hi, I'm Marvin Schmitt.
 
 I am a *Data and Computer Scientist* and a *Psychologist*. I am currently working as a PhD researcher in Bayesian Statistics at the Cluster of Excellence SimTech, University of Stuttgart. My main scientific interests revolve around Bayesian statistics and deep learning. Lifelong learning is one of my greatest passions, head-to-head with making music {{< fa guitar >}}
+:::
 
+::: {.g-col-12 .g-col-md-6}
+You can check out my recent blog posts below or subscribe to my brand-new newsletter:
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<iframe src="https://embeds.beehiiv.com/c7111066-479b-43db-ad92-8d703fe96bf0?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; width: 100%"></iframe>
 :::
 :::
 
 
-## Recent Blog Posts
+
+
+## Featured Blog Posts
 :::{#blog-listing}
 :::
