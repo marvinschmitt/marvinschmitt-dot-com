@@ -62,11 +62,13 @@ $btn-code-copy-color-active: $orange !default;
 
 /*-- scss:rules --*/
 
-// Shrink blocks of code
 pre.text, pre.sourceCode, .cell-output pre {
     font-size: 0.775em;
 }
 
+.navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
+}
 
 // Blog
 .blog {
