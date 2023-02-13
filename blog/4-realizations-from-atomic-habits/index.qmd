@@ -7,10 +7,8 @@ categories:
   - books
 image: atomic_habits_thumbnail_new.png
 draft: false
-
-
 twitter-card: 
-  image: "/blog/4-realizations-from-atomic-habits/atomic_habits_twitter_card.png"
+  image: "atomic_habits_twitter_card.png"
 ---
 
 
@@ -114,7 +112,7 @@ James Clear makes a fair point when he claims that habits are the compound inter
 
 
 
-```{r, echo=FALSE, message=FALSE, warnings=FALSE, fig.height=3, fig.width=6}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=3, fig.width=6}
 N = 365
 x = seq(0, N, length.out=N)
 y_linear = 1 + 0.01 * x
