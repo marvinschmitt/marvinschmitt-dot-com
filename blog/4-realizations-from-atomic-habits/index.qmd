@@ -5,7 +5,7 @@ date: 01-07-2023
 categories: 
   - psychology
   - books
-image: atomic_habits_thumbnail.png
+image: atomic_habits_thumbnail_new.png
 draft: false
 ---
 
