@@ -1,5 +1,4 @@
 :root {
-    --font-family: 'Trebuchet MS', sans-serif;
 
     --gradient-text: var(--color-primary);
     --gradient-bar: linear-gradient(103.22deg, #c7c7c7 -13.86%, #ff7a48 99.55%);
@@ -129,7 +128,6 @@ a {
 }
 
 .hero_content h1 {
-    font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
@@ -137,7 +135,6 @@ a {
 }
 
 .hero_content p {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -172,7 +169,7 @@ a {
     position: relative;
     top: 0px;
     color: white;
-    font-size: 11pt;
+    font-size: 12pt;
     font-style: italic;
 }
 
