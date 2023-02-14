@@ -22,6 +22,7 @@ website:
   
   navbar:
     pinned: true
+    logo: /img/ms_icon.png
     left:
       - text: Blog
         href: blog/index.qmd

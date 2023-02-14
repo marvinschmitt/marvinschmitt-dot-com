@@ -62,12 +62,26 @@ $btn-code-copy-color-active: $orange !default;
 
 /*-- scss:rules --*/
 
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 pre.text, pre.sourceCode, .cell-output pre {
     font-size: 0.775em;
 }
 
 .navbar-nav.navbar-nav-scroll.ms-auto {
     flex-direction: row;
+}
+
+.sidebar nav[role="doc-toc"]>ul li a {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.navbar {
+  background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%);
 }
 
 // Blog
@@ -140,6 +154,10 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 #title-block-header.quarto-title-block.default .description, .title{
   color:$white;
+}
+
+#quarto-content>* {
+  padding: 0;
 }
 
 .blog-post {
