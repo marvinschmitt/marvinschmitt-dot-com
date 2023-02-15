@@ -23,6 +23,7 @@ body{
 }
 
 .gradient_bg {
+  overflow: visible;
   width: 100%;
   margin-top: 0;
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 57, 138, 1) 100%);
@@ -120,6 +121,9 @@ a {
     display: flex;
     flex-direction: row;
     z-index: 1;
+    max-width: 2000px;
+    margin: auto;
+    padding-top: 6rem;
 }
 
 .hero_content {
@@ -130,6 +134,8 @@ a {
     flex-direction: column;
     z-index: 7;
     margin-right: 5rem;
+    margin: auto;
+    max-width: 700px;
 }
 
 .hero_content h1 {
@@ -189,9 +195,10 @@ a {
 
 .hero_image img {
     z-index: 7;
-    width: 100%;
+    width: 50%;
     aspect-ratio: 1/1;
-    padding: 20%
+    margin: auto;
+    max-width: 400px;
 }
 
 
