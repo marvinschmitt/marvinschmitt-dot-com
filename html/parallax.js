@@ -2,7 +2,8 @@
 for (i = 0; i < 150; i++){
   const dot = document.createElement("div");
   dot.className = 'parallax dot';
-  const x_location = Math.random() * 100 + '%';
+  const x_location = 
+   Math.random() * 100 + '%';
   const y_location = Math.random() * 100 + '%';
   const distance = Math.random();
   const speed = 0.1 * distance;
@@ -12,7 +13,7 @@ for (i = 0; i < 150; i++){
     'top': x_location, 
     'left': y_location, 
     'position': 'absolute', 
-    'background-color': 'yellow', 
+    'background-color': '#fff2b5', 
     'height': size,
     'width': size,
     'opacity' : opacity

@@ -82,7 +82,8 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 .navbar {
   z-index: 1;
-  background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%);
+  background: black;
+  /*background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%);*/
 }
 
 .navbar-dark .navbar-nav .nav-link {
