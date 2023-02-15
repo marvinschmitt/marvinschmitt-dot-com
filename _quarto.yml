@@ -47,6 +47,7 @@ website:
     creator: "@MarvinSchmittML"
     
   open-graph: 
+    image: img/marvin_foto.png
     locale: en_US
     
   google-analytics: "G-N36VLTEM79"
