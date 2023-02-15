@@ -204,13 +204,18 @@ a {
         line-height: 60px;
     }
 
-    .hero_content p {
+    .hero_content p{
         font-size: 16px;
         line-height: 24px;
     }
+    
+    .hero_content_below_button span{
+      font-size: 11px;
+    }
 
     .hero_content_input input,
-    .hero_content_input button {
+    .hero_content_input button,
+    .hero_content_input iframe{
         font-size: 16px;
         line-height: 24px;
     }
@@ -222,14 +227,19 @@ a {
         line-height: 48px;
     }
 
-    .hero_content p {
+    .hero_content p{
         font-size: 14px;
         line-height: 24px;
     }
 
     .hero_content_input input,
-    .hero_content_input button {
+    .hero_content_input button,
+    .hero_content_input iframe{
         font-size: 12px;
         line-height: 16px;
+    }
+    
+    .hero_content_below_button span{
+      font-size: 10px;
     }
 }

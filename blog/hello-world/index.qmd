@@ -8,6 +8,11 @@ image: hello-world-thumbnail.jpeg
 reference-location: margin
 draft: false
 title-block-banner: hello-world-bg.jpg
+
+format:
+  html:
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
 ---
 
 (Photo by [Markus Spiske](https://www.pexels.com/photo/display-coding-programming-development-1921326/))

@@ -7,7 +7,7 @@ categories:
   - R
   - programming
   - visualization
-image: figures/ggsimplex-hexsticker-thumbnail.png
+image: "figures/ggsimplex-hexsticker-thumbnail.png"
 draft: false
 
 format: 
@@ -15,17 +15,17 @@ format:
     fig-width: 6
     out.width: "85%"
     fig-align: center
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
 execute:
   warning: false
+    
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(fig.align = "center", fig.height=3)
 ```
 
-::: {.column-margin}
-![](figures/ggsimplex-hexsticker.png)
-:::
 
 Our latest manuscript [Meta-Uncertainty in Bayesian Model Comparison](https://arxiv.org/pdf/2210.07278.pdf) has been accepted to AISTATS 2023! That's a reason to celebrate 🎉 At the same time, this means that a lot of people hear about the project and some are interested in the code. So far, so good. Of course, we have released the software code for the paper in a [public GitHub repository](https://github.com/marvinschmitt/MetaUncertaintyPaper).
 But there is one problem. The fancy triangular density plots use an internal and highly experimental ggplot extension: [`{ggsimplex}`](https://github.com/marvinschmitt/ggsimplex) ([GitHub source](https://github.com/marvinschmitt/ggsimplex))

@@ -7,6 +7,11 @@ categories:
 image: mac_email_thumbnail_new.png
 reference-location: margin
 draft: false
+
+format:
+  html:
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
 ---
 
 <img src="img/email_shortcut.gif" width="100%"/>

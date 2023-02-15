@@ -9,6 +9,10 @@ image: atomic_habits_thumbnail_new.png
 draft: false
 twitter-card: 
   image: "atomic_habits_twitter_card.png"
+format:
+  html:
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
 ---
 
 
