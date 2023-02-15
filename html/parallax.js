@@ -6,7 +6,7 @@ for (i = 0; i < 150; i++){
    Math.random() * 100 + '%';
   const y_location = Math.random() * 100 + '%';
   const distance = Math.random();
-  const speed = 0.1 * distance;
+  const speed = 0.085 * distance;
   const size = 1.5 * distance + 3 + 'px';
   const opacity = distance * 40 + 20 + '%';
   $(dot).css({

@@ -25,7 +25,7 @@ body{
 .gradient_bg {
   width: 100%;
   margin-top: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 88, 214, 1) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 57, 138, 1) 100%);
   /*background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%);*/
 }
 
@@ -191,7 +191,7 @@ a {
     z-index: 7;
     width: 100%;
     aspect-ratio: 1/1;
-    padding: 10%
+    padding: 20%
 }
 
 
