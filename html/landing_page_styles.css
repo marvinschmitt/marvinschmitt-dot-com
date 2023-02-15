@@ -115,6 +115,7 @@ a {
 .hero {
     display: flex;
     flex-direction: row;
+    z-index: 1;
 }
 
 .hero_content {
@@ -123,7 +124,7 @@ a {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
+    z-index: 7;
     margin-right: 5rem;
 }
 
@@ -144,17 +145,17 @@ a {
 }
 
 .hero_content_input {
+    z-index: 7;
     width: 100%;
     margin: 2rem 0 0rem;
-    gap: 0px;
     display: flex;
     flex-direction: row;
 }
 
 .hero_content_input iframe {
     flex: 2;
-    min-height: 50px;
-    max-height: 50px;
+    min-height: 53px;
+    max-height: 53px;
     padding: 0 0rem;
     margin: 0 !important; 
     padding:0 !important; 
@@ -175,6 +176,7 @@ a {
 
 
 .hero_image {
+    z-index: 7;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -182,6 +184,7 @@ a {
 }
 
 .hero_image img {
+    z-index: 7;
     width: 100%;
     aspect-ratio: 1/1;
     padding: 10%
@@ -242,4 +245,27 @@ a {
     .hero_content_below_button span{
       font-size: 10px;
     }
+}
+
+#bottom_wave{
+  z-index: 7;
+  position:relative;
+}
+
+.parallax{
+  
+}
+
+#dot_container{
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.dot{
+  border-radius: 50%;
+  opacity: 50%;
 }

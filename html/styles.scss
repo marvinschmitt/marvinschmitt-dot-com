@@ -81,19 +81,23 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .navbar {
+  z-index: 1;
   background: linear-gradient(90deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100%);
 }
 
 .navbar-dark .navbar-nav .nav-link {
+  z-index:1;
   color: #fff;
 }
 
 .navbar-dark:hover .navbar-nav:hover .nav-link:hover{
+  z-index: 1;
   color: $orange;
 }
 
 .navbar-title {
   color: #fff;
+  z-index: 10;
 }
 
 // Blog

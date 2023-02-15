@@ -5,8 +5,6 @@ format:
   html: 
     margin-top: 0em
     margin-bottom: 0em
-include-in-header: 
-  file: html/landing_page_style.css
 listing:
   id: blog-listing
   contents:     
@@ -18,31 +16,35 @@ listing:
   max-items: 3
   grid-columns: 3
   fields: [image, date, title]
+
 ---
 
 ::: {.column-screen}
 ```{=html}
 <link rel="stylesheet" href="html/landing_page_styles.css">
+
 <div class="gradient_bg">
-    <div class="hero section_padding" id="home">
+    <div class="hero section_padding">
         <div class="hero_content">
             <h1>Hi, I'm <span class="gradient_text">Marvin</span>.</h1>
             <p>I am a Data and Computer Scientist and a Psychologist.
                 Explore my blog and newsletter to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
 
             <div class="hero_content_input">
-<iframe src="https://embeds.beehiiv.com/c7111066-479b-43db-ad92-8d703fe96bf0?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no"></iframe>
-</div>
+                <iframe src="https://embeds.beehiiv.com/c7111066-479b-43db-ad92-8d703fe96bf0?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no"></iframe>
+            </div>
             <div class="hero_content_below_button">
                 <span>or <a href="blog/index.html" style="text-decoration: underline">read a bit of my blog first</a>.</span>
             </div>
-            
+
         </div>
         <div class="hero_image">
             <img src="/img/marvin_foto_hex.png"/>
         </div>
+        <div id="dot_container">
+        </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+    <svg id="bottom_wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
         <path
                 fill="#fff"
                 fill-opacity="1"
@@ -50,6 +52,11 @@ listing:
         ></path>
     </svg>
 </div>
+
+
+<script src="html/jquery.min.js"></script>
+<script src="html/TweenMax.min.js"></script>
+<script src="html/parallax.js"></script>
 ```
 
 :::
