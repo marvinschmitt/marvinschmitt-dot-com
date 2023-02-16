@@ -195,10 +195,11 @@ a {
 
 .hero_image img {
     z-index: 7;
-    width: 50%;
+    width: 70%;
     aspect-ratio: 1/1;
     margin: auto;
-    max-width: 400px;
+    max-width: 350px;
+    min-width: 250px;
 }
 
 
