@@ -63,7 +63,7 @@ a {
 }
 
 .section_padding {
-    padding: 2rem 6rem 0rem 6rem;
+    padding: 2rem 6rem 4rem 6rem;
 }
 
 .section_margin {
@@ -99,7 +99,11 @@ a {
 
 @media screen and (max-width: 700px) {
     .section_padding {
-        padding: 2rem 4rem 0rem 4rem;
+        padding: 1rem 2rem 0rem 2rem;
+    }
+    
+    .hero {
+      padding-top: 2rem;
     }
 
     .section_margin {
@@ -109,7 +113,11 @@ a {
 
 @media screen and (max-width: 550px) {
     .section_padding {
-        padding: 2rem 4rem 0rem 4rem;
+        padding: 1rem 2rem 0rem 2rem;
+    }
+    
+    .hero {
+      padding-top: 2rem;
     }
 
     .section_margin {
