@@ -17,5 +17,5 @@ Meta-Uncertainty represents a fully probabilistic framework for quantifying the 
 
 <img src="/img/model_misspecification_amortized_sbi.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2112.08866', 'blank');"/>
 
-<a href="https://arxiv.org/abs/2112.08866" target="_blank">arXiv Preprint</a> | <a href="https://github.com/marvinschmitt/ModelMisspecificationBF" target="_blank">Code</a><br>
+<a href="https://arxiv.org/abs/2112.08866" target="_blank">arXiv Preprint</a> | <a href="https://github.com/marvinschmitt/ModelMisspecificationBF" target="_blank">Code</a> | <a href="poster_bayescomp_mms.pdf" target="_blank">Poster</a><br>
 Novel neural network based architectures enable amortized Bayesian inference in settings where the likelihood function is only implicitly defined by a simulation program. But how faithful is such inference when simulations represent reality somewhat inaccurately? This paper illustrates how imposing a probabilistic structure on the latent data summary space can help to detect potentially catastrophic misspecifications during inference.
