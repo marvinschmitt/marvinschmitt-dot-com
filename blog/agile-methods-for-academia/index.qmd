@@ -1,0 +1,99 @@
+---
+title: "Agile methods in academia"
+description: "Boost your productivity and feel less overwhelmed with these six agile methods."
+date: 03-07-2023
+categories: 
+  - psychology
+  - academia
+image: agile-academia-thumbnail.png
+draft: false
+number-sections: true
+
+format:
+  html:
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
+---
+
+# Introduction
+
+As the academic world becomes increasingly competitive, researchers often find it challenging to keep up with the rigorous research demands while maintaining a balanced work-life schedule. Fortunately, there are project management tools that can help streamline workflows, increase productivity, and help achieve research goals with greater ease.
+
+In this blog post, we will discuss agile methods, which are practical and straightforward and can be applied to all academic disciplines. These methods can be applied in virtually any field where there is an abundance of work, and managing the work is a task by itself.
+
+# What are agile methods?
+
+Agile methods are a set of project management practices that prioritize flexibility, collaboration, and continuous improvement. The core idea of agile methods is to break down a project into smaller, more manageable tasks, and then to work on those tasks iteratively, with frequent feedback and adjustments. This allows for greater adaptability and responsiveness to changing circumstances, and helps to avoid the pitfalls of a rigid, top-down approach to project management.
+
+Agile methods emphasize the importance of communication, teamwork, and transparency, and encourage a culture of experimentation and learning. By incorporating feedback from stakeholders, and constantly re-evaluating and adjusting the project plan as necessary, agile methods help to ensure that the project stays on track and meets its goals. Overall, the goal of agile methods is to empower teams to work more efficiently and effectively, and to deliver high-quality results that meet the needs of all stakeholders.
+
+# How can I use agile methods?
+
+So, how can project management tools help you streamline your workflow and increase your productivity? Let's dive into some agile methods and explore how they can help you manage your research projects more efficiently.
+
+## Method 1: Breaking down a project into smaller tasks
+
+Breaking down a large project into smaller, more manageable tasks is a common agile method that can help you focus on what needs to be done. This method is especially helpful if you tend to feel overwhelmed by the sheer scope of a project.
+
+For instance, if you're working on a research paper, you can break it down into smaller tasks such as conducting a literature review, drafting an outline, writing the introduction, collecting data, analyzing data, and writing the conclusion. This approach helps you manage your time more effectively and makes it easier to track your progress.
+
+## Method 2: Specifying the "definition of done"
+
+Each task should have a clear "definition of done", which means identifying what needs to be done to complete that task. For example, if I am working on a plot for a research paper, my definition of done includes:
+
+-   ✅ a colorblind-friendly palette,
+-   ✅ a clear legend, proper labels,
+-   ✅ a descriptive caption,
+-   ✅ subfigures that match with alignment and font size.
+
+Specifying the "definition of done" helps you set clear expectations and ensures that you're meeting the requirements for each task. It also helps you avoid the feeling of being stuck in a never-ending cycle of revisions. If you're done (according to your definition of done) with all tasks, you can still re-iterate and polish the entire project.
+
+## Method 3: Conducting retrospectives
+
+Retrospectives are crucial for reflecting on your workflow, identifying areas for improvement, and making changes for future projects. By reflecting on your successes and failures, you can work more efficiently and improve your research processes.
+
+To perform a retrospective, the team should set aside a specific time to reflect on the completed project or a particular phase of the project. Each team member should be encouraged to share their thoughts, feelings, and feedback openly and honestly. The team should discuss what worked well, what didn't work, and what could be improved. Retrospectives should be conducted regularly, preferably after each iteration, to continuously improve the workflow and achieve better results.
+
+As a junior researcher, you may not have the opportunity to issue a retrospective with all members of a project. However, you can still have a solo retrospective on your tasks. You can ask yourself questions like "What worked well and should be repeated next time?" or "What didn't work out well and should be changed right away?" or "What are the next steps, and when are they due?"
+
+## Method 4: Setting work-in-progress limits
+
+Setting a limit on the number of tasks you're working on can help you avoid feeling overwhelmed and stay focused on the task at hand. For instance, you can limit yourself to two to three tasks for maximum efficiency.
+
+By setting work-in-progress limits, you can avoid overcommitting and ensure that you're making progress on the right tasks.
+
+also helps you prioritize your work and avoid the tendency to multitask, which can be counterproductive.
+
+## Method 5: Estimating the required amount of work for each task
+
+Estimating the required amount of work for each task helps you plan your time more effectively and avoid over-committing. It also facilitates communication with collaborators by setting realistic expectations for when they can expect results.
+
+Estimating the required amount of work for each task also helps you avoid underestimating the amount of work required for a task, which can lead to delays and missed deadlines.
+
+## Method 6: Prioritizing tasks
+
+Prioritizing tasks based on their importance and urgency is an essential skill for managing research projects. The Eisenhower Matrix is a useful tool for prioritizing tasks based on four categories: urgent and important, important but not urgent, urgent but not important, and neither urgent nor important.
+
+|                   |    urgent    |    not urgent    |
+|------------------:|:------------:|:----------------:|
+|     **important** |  Do it now.  | Schedule a time. |
+| **not important** | Delegate it. |    Delete it.    |
+
+: Illustration of the Eisenhower matrix for prioritizing tasks.
+
+By using the Eisenhower Matrix, you can prioritize your tasks and make progress toward your goals without feeling overwhelmed. Learning to say no is also an essential skill in prioritizing tasks.
+
+# Conclusion
+
+In conclusion, implementing agile methods in academia can help you work more efficiently and achieve your research goals with greater ease. By breaking down a project into smaller tasks, defining the "definition of done", conducting retrospectives, setting work-in-progress limits, estimating the required amount of work for each task, and prioritizing tasks, you can manage your research projects more effectively and stay on track. Don't be afraid to give it a try!
+
+# TL;DR
+
+Agile methods are great, try those:
+
+1.  Break a project into manageable tasks 🧩
+2.  Definition of done ✅
+3.  Retrospectives 👀
+4.  Limit work in progress 🛑
+5.  Estimate the amount of work ⏳
+6.  Prioritize tasks ⚠️
