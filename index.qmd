@@ -5,6 +5,9 @@ format:
   html: 
     margin-top: 0em
     margin-bottom: 0em
+    minimal: true
+    smooth-scroll: true
+    fig-responsive: true
 listing:
   id: blog-listing
   contents:     
