@@ -13,13 +13,17 @@ website:
   twitter-card:
     title: "Job: Student Assistant ML Software Engineering"
     image: "../assets/shk_thumbnail.png?refreshpls"
-    image-width: 1280
-    image-height: 720
+    image-width: "1280"
+    image-height: "720"
   open-graph:
     title: "Job: Student Assistant ML Software Engineering"
     image: "../assets/shk_thumbnail.png?refreshpls" 
-    image-width: 1280
-    image-height: 720
+    image-width: "1280"
+    image-height: "720"
+format:
+  html:
+    include-in-header: card.html
+
 ---
 
 ```{css echo=FALSE}
@@ -60,7 +64,5 @@ We are hiring a student assistant to help with software development for probabil
 
 
 ```{=html}
-<div class="embed-container">
   <iframe src="`r rmarkdown::metadata$website$image`" style="border: 0.5px; display: none;"></iframe>
-</div>
 ```
