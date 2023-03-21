@@ -2,6 +2,7 @@
 title: "Job: Student Assistant ML Software Engineering"
 excerpt: "Job: Student Assistant ML Software Engineering"
 comments: false
+draft: false
 execute:
   freeze: true  # never re-render during project render
 engine: knitr 
@@ -9,13 +10,13 @@ assets:
   pdf: "../assets/student_assistant_software_engineering_ml.pdf"
 website:
   description: "We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university."
-  image: "../img/shk_thumbnail.png"
+  image: "shk_thumbnail.png"
   twitter-card:
     title: "Job: Student Assistant ML Software Engineering"
-    image: "../img/shk_thumbnail.png"
+    image: "shk_thumbnail.png"
   open-graph:
     title: "Job: Student Assistant ML Software Engineering"
-    image: "../img/shk_thumbnail.png" 
+    image: "shk_thumbnail.png" 
 ---
 
 ```{css echo=FALSE}
@@ -37,13 +38,10 @@ website:
 }
 ```
 
-
-
-:::{.column-page}
+::: column-page
 # Student Assistant Job: ML Software Engineering
 
-We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university.
-<a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
+We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university. <a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
 
 ```{=html}
 <p class="text-center">
@@ -55,5 +53,11 @@ We are hiring a student assistant to help with software development for probabil
   <iframe src="`r rmarkdown::metadata$assets$pdf`" style="border: 0.5px"></iframe>
 </div>
 ```
-
 :::
+
+
+```{=html}
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$website$image`" style="border: 0.5px; display: none;"></iframe>
+</div>
+```
