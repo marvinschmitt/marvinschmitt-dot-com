@@ -13,9 +13,13 @@ website:
   twitter-card:
     title: "Job: Student Assistant ML Software Engineering"
     image: "../assets/shk_thumbnail.png?refreshpls"
+    image-width: 1280
+    image-height: 720
   open-graph:
     title: "Job: Student Assistant ML Software Engineering"
     image: "../assets/shk_thumbnail.png?refreshpls" 
+    image-width: 1280
+    image-height: 720
 ---
 
 ```{css echo=FALSE}
