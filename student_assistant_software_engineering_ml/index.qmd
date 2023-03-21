@@ -1,12 +1,15 @@
 ---
-title: "Job: Student Assistant Software Engineering ML"
-excerpt: "Job: Student Assistant Software Engineering ML"
+title: "Job: Student Assistant ML Software Engineering"
+excerpt: "Job: Student Assistant ML Software Engineering"
 comments: false
 execute:
   freeze: true  # never re-render during project render
 engine: knitr 
 assets:
   pdf: "../assets/student_assistant_software_engineering_ml.pdf"
+twitter-card:
+  title: "Job: Student Assistant ML Software Engineering"
+  image: shk_thumbnail.png
 ---
 
 ```{css echo=FALSE}
