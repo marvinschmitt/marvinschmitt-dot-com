@@ -67,7 +67,7 @@ listing:
 
 ## News
 
-- **March 20, 2023**: We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student be based at any German university. <a href="assets/student_assistant_software_engineering_ml.pdf" target="_blank" style="color: #E6AA04;">Here</a> is a link to the advertisement. <a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
+- **March 20, 2023**: We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university. <a href="student_assistant_software_engineering_ml/index.html" target="_blank" style="color: #E6AA04;">Here</a> is a link to the advertisement. <a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
 
 - **March 10, 2023**: Heading to [BayesComp 2023](https://bayescomp2023.com/) in Levi, Finnland. Finally putting faces to all those names from papers and Twitter. Presenting a [poster](projects/poster_bayescomp_mms.pdf) and an invited lightning talk. See you around!
 

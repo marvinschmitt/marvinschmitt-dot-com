@@ -1,0 +1,50 @@
+---
+title: "Job: Student Assistant Software Engineering ML"
+excerpt: "Job: Student Assistant Software Engineering ML"
+comments: false
+execute:
+  freeze: true  # never re-render during project render
+engine: knitr 
+assets:
+  pdf: "../assets/student_assistant_software_engineering_ml.pdf"
+---
+
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+
+
+:::{.column-page}
+# Student Assistant Job: ML Software Engineering
+
+We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university.
+<a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$assets$pdf`" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download PDF
+  </a>
+</p>
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$assets$pdf`" style="border: 0.5px"></iframe>
+</div>
+```
+
+:::
