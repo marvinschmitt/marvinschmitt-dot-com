@@ -1,0 +1,14 @@
+{
+  "hash": "1e5a8cffdbfe57b2a9db47195f93f3c7",
+  "result": {
+    "markdown": "---\ntitle: \"Job: Student Assistant ML Software Engineering\"\nexcerpt: \"Job: Student Assistant ML Software Engineering\"\ncomments: false\nexecute:\n  freeze: true  # never re-render during project render\nengine: knitr \nassets:\n  pdf: \"../assets/student_assistant_software_engineering_ml.pdf\"\nwebsite:\n  description: \"We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university.\"\n  image: \"thumbnail.png\"\n  twitter-card:\n    title: \"Job: Student Assistant ML Software Engineering\"\n    image: \"thumbnail.png\"\n    image-width: \"1280\"\n    image-height: \"720\"\n  open-graph:\n    title: \"Job: Student Assistant ML Software Engineering\"\n    image: \"thumbnail.png\" \n    image-width: \"1280\"\n    image-height: \"720\"\nformat:\n  html:\n    include-in-header: card.html\n\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n}\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n</style>\n:::\n\n\n::: column-page\n# Student Assistant Job: ML Software Engineering\n\nWe are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university. <a href=\"mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering\" target=\"_blank\" style=\"color: #E6AA04;\">Drop me a mail</a> if you're interested!\n\n\n```{=html}\n<p class=\"text-center\">\n  <a class=\"btn btn-primary btn-lg cv-download\" href=\"../assets/student_assistant_software_engineering_ml.pdf\" target=\"_blank\">\n    <i class=\"fa-solid fa-file-arrow-down\"></i>&ensp;Download PDF\n  </a>\n</p>\n<div class=\"embed-container\">\n  <iframe src=\"../assets/student_assistant_software_engineering_ml.pdf\" style=\"border: 0.5px\"></iframe>\n</div>\n```\n\n:::\n\n\n\n```{=html}\n  <iframe src=\"thumbnail.png\" style=\"border: 0.5px; display: none;\"></iframe>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
