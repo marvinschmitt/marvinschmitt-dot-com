@@ -2,7 +2,6 @@
 title: "Job: Student Assistant ML Software Engineering"
 excerpt: "Job: Student Assistant ML Software Engineering"
 comments: false
-draft: false
 execute:
   freeze: true  # never re-render during project render
 engine: knitr 
@@ -10,13 +9,13 @@ assets:
   pdf: "../assets/student_assistant_software_engineering_ml.pdf"
 website:
   description: "We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university."
-  image: "shk_thumbnail.png"
+  image: "../assets/shk_thumbnail.png?refreshpls"
   twitter-card:
     title: "Job: Student Assistant ML Software Engineering"
-    image: "shk_thumbnail.png"
+    image: "../assets/shk_thumbnail.png?refreshpls"
   open-graph:
     title: "Job: Student Assistant ML Software Engineering"
-    image: "shk_thumbnail.png" 
+    image: "../assets/shk_thumbnail.png?refreshpls" 
 ---
 
 ```{css echo=FALSE}
