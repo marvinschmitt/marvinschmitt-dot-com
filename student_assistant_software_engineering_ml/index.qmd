@@ -9,7 +9,7 @@ assets:
   pdf: "../assets/student_assistant_software_engineering_ml.pdf"
 website:
   description: "We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university."
-  image: "../assets/shk_thumbnail.png?refreshpls"
+  image: "../assets/shk_thumbnail.png"
   twitter-card:
     title: "Job: Student Assistant ML Software Engineering"
     image: "../assets/shk_thumbnail.png?refreshpls"
