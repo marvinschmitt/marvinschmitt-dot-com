@@ -15,7 +15,7 @@ website:
     image: "../img/shk_thumbnail.png"
   open-graph:
     title: "Job: Student Assistant ML Software Engineering"
-    image: "../img/shk_thumbnail.png"
+    image: "../img/shk_thumbnail.png" 
 ---
 
 ```{css echo=FALSE}
