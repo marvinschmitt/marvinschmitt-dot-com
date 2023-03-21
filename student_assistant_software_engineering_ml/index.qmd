@@ -9,7 +9,7 @@ assets:
   pdf: "../assets/student_assistant_software_engineering_ml.pdf"
 twitter-card:
   title: "Job: Student Assistant ML Software Engineering"
-  image: shk_thumbnail.png
+  image: "../assets/shk_thumbnail.png"
 ---
 
 ```{css echo=FALSE}
