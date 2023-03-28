@@ -1,13 +1,13 @@
 ---
-title: "Guide: Quarto website with template"
-description: "Create your own website with this simple Quarto template. Full tutorial with step-by-step instructions for your personal or academic homepage."
-date: 03-11-2023
+title: "Create Your Website with Quarto: Complete Tutorial and Template"
+description: "This tutorial and template will help you build your own personal website with Quarto. It is a full guide with step-by-step instructions for your personal or academic homepage."
+date: 03-28-2023
 categories: 
   - tech
   - website
   - academia
   - quarto
-image: website-template-thumbnail.png
+image: website-tutorial-thumbnail.png
 draft: false
 number-sections: true
 format:
