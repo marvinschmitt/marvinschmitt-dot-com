@@ -20,11 +20,7 @@ editor:
     wrap: sentence
 ---
 
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://github.com/marvinschmitt/quarto-website-template/archive/refs/heads/main.zip" role="button" style="padding: 15px 30px;">Let me download the template first</a>
-</div>
-```
+**Quick Links:** &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="" role="button" style="padding: 5px 5px;">Download the free Template</a> &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="https://marvinschmitt.github.io/quarto-website-template/" role="button" style="padding: 5px 5px;">Live preview of the template</a>
 
 # Introduction
 
@@ -41,25 +37,42 @@ WordPress is a great no-code tool, but its visual editor has driven me nuts when
 I personally prefer code-based tools because they give me full control and reproducibility.
 But even within the realm of code-based web design, there are more tools than a single person could ever try out. In this blog post, we will talk about how to set up your personal website with `Quarto`.
 
+
 # Setting up your website with Quarto
 
 [Quarto](https://quarto.org/) is a new open-source publishing system built on Pandoc. Quarto lets you write dynamic content using [Python](https://www.python.org/), [R](https://www.r-project.org/), [Julia](https://julialang.org/), and [Observable](https://observablehq.com/), and author documents as plain text markdown or Jupyter notebooks. You can also publish your work in various formats, such as HTML, PDF, MS Word, ePub, and more. Quarto is the next generation of [RMarkdown](https://rmarkdown.rstudio.com/), and it aims to make scientific and technical publishing easier and more accessible for everyone.
 
 For our purpose of creating a personal website, Quarto is well-suited because you might already use R (possibly even via RStudio) for your analyes. But even if you are new to the R ecosystem, worry not -- you do not need any R to build your website with Quarto.
 
-## Download the template
+## My template for you
 
 You do not have to start the project of creating your own personal website from scratch because I have crafted a template for you.
 You can take the template, fill in your information, and leave it as-is.
 Alternatively, if you find that crafting your own website sparks joy for you, and you want to further delve into the nuts and bolts, you can simply take this template as a basis and extend your website from there.
 
+You can take a look at the live preview [here](https://marvinschmitt.github.io/quarto-website-template/). You find the free direct download link for the entire template [here](https://github.com/marvinschmitt/quarto-website-template/archive/refs/heads/main.zip).
+
+::: {layout-ncol=2}
+
+[![](screenshots/website_template_screenshot_1.png)](https://marvinschmitt.github.io/quarto-website-template/)&nbsp;
+
+[![](screenshots/website_template_screenshot_2.png)](https://marvinschmitt.github.io/quarto-website-template/)&nbsp;
+
+[![](screenshots/website_template_screenshot_3.png)](https://marvinschmitt.github.io/quarto-website-template/)&nbsp;
+
+[![](screenshots/website_template_screenshot_4.png)](https://marvinschmitt.github.io/quarto-website-template/)&nbsp;
+
+:::
+
 The first step is to download the website template. You can either clone the [GitHub repository](https://github.com/marvinschmitt/quarto-website-template) or download a `.zip` archive with the template here:
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://github.com/marvinschmitt/quarto-website-template/archive/refs/heads/main.zip" role="button" style="padding: 15px 30px;">Download the template</a>
+<a class="btn btn-outline-primary" href="https://github.com/marvinschmitt/quarto-website-template/archive/refs/heads/main.zip" role="button" style="padding: 15px 30px;">Download the template</a>
 </div>
 ```
+
+## Opening the template in RStudio
 
 Unpack the archive and open the `quarto-website-template.Rproj` file in RStudio.
 If R and RStudio are not installed on your machine, check out [this link](https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/).
@@ -124,7 +137,7 @@ Open the `/index.qmd` file and inspect the header, that is, the part at the top 
 about:
   template: jolla
   id: about-block
-  image: "https://thispersondoesnotexist.com/image" # change to img/photo.png
+  image: img/my_image.png
   links:
     - icon: twitter
       text: Twitter
@@ -345,12 +358,12 @@ Here are some general web development tips, ranging from file management and DNS
 Thanks to Paul Buerkner for requesting this
 :::
 
-Suppose you are editing the file `page2/index.qmd` and want to add a link to the page `<name>.github.io/page3`.
-You can of course link to the full URL `<name>.github.io/page3`, but that link will break if you change your domain name to `www.<name>.com`.
+Suppose you are editing the file `projects/index.qmd` and want to add a link to the page `<name>.github.io/photography`.
+You can of course link to the full URL `<name>.github.io/photography`, but that link will break if you change your domain name to `www.<name>.com`.
 Instead, you can use *relative* links.
 You only need to know that `../` takes you one layer back on the folder tree.
 
-**Example:** Starting from `page2/index.qmd`, you can use `../page3/index.qmd` to walk back one layer into the root folder of your website, and then move into `page3`, where `index.qmd` of `page3` lives.
+**Example:** Starting from `projects/index.qmd`, you can use `../photography/index.qmd` to walk back one layer into the root folder of your website, and then move into the folder `photography/`, where `index.qmd` of `photography` lives.
 This relative path is valid no matter what domain you use.
 It only breaks if you decide to remodel the entire structure of your website.
 But in this case, I assume you know what you are doing and you're well off on your own 😉
@@ -408,5 +421,13 @@ I hope this guide has provided you with the information you need to create your 
 Now that you have all the tools and knowledge you need to get started, it's time to put it into action.
 I'd love to see what you have created!
 Share a link to your new website in the comments below 👇
+
+Finally, if you liked this tutorial (and maybe even found it useful), I would greatly appreciate if you considered
+
+- spreading the word on Twitter (my handle is [@MarvinSchmittML](https://twitter.com/MarvinSchmittML))
+- subscribing to my newsletter to receive exclusive mails on similar topics
+- leaving any sort of feedback. That's incredibly motivating 🙂
+
+Cheers!
 
 ---
