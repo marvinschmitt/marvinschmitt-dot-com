@@ -105,6 +105,11 @@ pre.text, pre.sourceCode, .cell-output pre {
   z-index: 10;
 }
 
+.quarto-grid-item img.thumbnail-image {
+                height: 100%;
+                object-fit: contain;
+        }
+
 // Blog
 .blog {
     .blog-entry {
@@ -127,9 +132,9 @@ pre.text, pre.sourceCode, .cell-output pre {
             flex: 0 0 25%;
 
             img {
-                width: 100%;
+                height: 100%;
                 object-fit: cover;
-                max-height: 120px;
+                max-width: 200px;
             }
         }
 
