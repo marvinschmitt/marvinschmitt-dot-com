@@ -3,7 +3,7 @@ title: "Blog"
 author: ""
 title-block-banner: false
 page-layout: full
-description: "Welcome to my blog, I’m thrilled to welcome you! Here, you will find a collection of articles on a wide variety of topics. Take a look around and let me know what you think!"
+description-meta: "Welcome to my blog, I’m thrilled to welcome you! Here, you will find a collection of articles on a wide variety of topics. Take a look around and let me know what you think!"
 
 listing:
   - id: posts_2023
@@ -29,7 +29,7 @@ code-tools: false
 comments: false
 ---
 
-Welcome to my blog, I'm thrilled to welcome you! Here, you will find a collection of articles on a wide variety of topics. As an avid learner, I strive to share informative and engaging content with my readers. Whether you are looking for thought-provoking insights or simply seeking to broaden your horizons, I hope you will find something of interest on my blog. So, take a look around and let me know what you think!
+Welcome to my blog, I'm thrilled that you are here! You will find a collection of articles on a wide variety of topics. As an avid learner, I strive to share informative and engaging content with my readers. Whether you are looking for thought-provoking insights or simply seeking to broaden your horizons, I hope you will find something of interest on my blog. So, take a look around and let me know what you think!
 
 ## 2023
 
