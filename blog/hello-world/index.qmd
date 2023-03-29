@@ -4,7 +4,7 @@ description: "For the past years, my homepage has just been a placeholder. It se
 date: 05-20-2022
 categories: 
   - news
-image: hello-world-thumbnail.jpeg
+image: hello-world-thumbnail.png
 reference-location: margin
 draft: false
 title-block-banner: hello-world-bg.jpg
