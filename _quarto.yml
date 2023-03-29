@@ -8,6 +8,7 @@ project:
     - "img/**"
     - "assets/**"
     - "sitemap.xml"
+    - "_redirects"
 
   preview: 
     port: 22222
