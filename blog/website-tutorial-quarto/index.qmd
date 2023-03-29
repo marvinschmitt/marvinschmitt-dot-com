@@ -18,6 +18,8 @@ format:
 editor: 
   markdown: 
     wrap: sentence
+resources: 
+  - "opengraph_thumbnail.png"
 twitter-card:
   title: "Create Your Website with Quarto: Complete Tutorial and Template"
   image: "opengraph_thumbnail.png"
