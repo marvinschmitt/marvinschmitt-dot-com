@@ -15,6 +15,9 @@ project:
     watch-inputs: true
     navigate: true
 
+title-meta: "Marvin Schmitt"
+description-meta: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"
+
 website:
   title: "Marvin Schmitt"
   description: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"

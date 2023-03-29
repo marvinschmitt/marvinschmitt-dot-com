@@ -1,8 +1,6 @@
 ---
 comments: false
 page-layout: full
-title-meta: "Marvin Schmitt"
-description-meta: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"
 format:
   html: 
     margin-top: 0em

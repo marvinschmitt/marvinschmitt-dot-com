@@ -3,6 +3,7 @@ title: "Blog"
 author: ""
 title-block-banner: false
 page-layout: full
+description: "Welcome to my blog, I’m thrilled to welcome you! Here, you will find a collection of articles on a wide variety of topics. Take a look around and let me know what you think!"
 
 listing:
   - id: posts_2023

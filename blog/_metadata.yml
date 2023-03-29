@@ -3,6 +3,7 @@
 # freeze computational output
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
+description-meta: "{{< meta description >}}"
 
 # Enable banner style title blocks
 title-block-banner: "../img/bg_trees_dark_banner.png"
