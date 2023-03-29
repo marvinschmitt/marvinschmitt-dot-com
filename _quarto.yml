@@ -3,6 +3,11 @@ draft: false
 
 project:
   type: website
+  
+  resources:
+    - "img/**"
+    - "assets/**"
+    - "sitemap.xml"
 
   preview: 
     port: 22222
