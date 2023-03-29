@@ -18,18 +18,16 @@ format:
 editor: 
   markdown: 
     wrap: sentence
-website:
+twitter-card:
+  title: "Create Your Website with Quarto: Complete Tutorial and Template"
   image: "opengraph_thumbnail.png"
-  twitter-card:
-    title: "Create Your Website with Quarto: Complete Tutorial and Template"
-    image: "opengraph_thumbnail.png"
-    image-width: "1280"
-    image-height: "720"
-  open-graph:
-    title: "Create Your Website with Quarto: Complete Tutorial and Template"
-    image: "opengraph_thumbnail.png" 
-    image-width: "1280"
-    image-height: "720"
+  image-width: "1280"
+  image-height: "720"
+open-graph:
+  title: "Create Your Website with Quarto: Complete Tutorial and Template"
+  image: "opengraph_thumbnail.png" 
+  image-width: "1280"
+  image-height: "720"
 ---
 
 **Quick Links:** &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="" role="button" style="padding: 5px 5px;">Download the free Template</a> &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="https://marvinschmitt.github.io/quarto-website-template/" role="button" style="padding: 5px 5px;">Live preview of the template</a>
