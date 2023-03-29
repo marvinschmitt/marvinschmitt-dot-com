@@ -8,7 +8,7 @@ toc-location: right
 
 <img src="/img/meta_uncertainty_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"/>
 
-<a href="https://arxiv.org/abs/2210.07278" target="_blank">Paper (AISTATS 2023)</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a><br>
+<a href="https://arxiv.org/abs/2210.07278" target="_blank">Paper (AISTATS 2023)</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a> | <a href="https://meta-uncertainty.github.io/" target="_blank">Project website</a><br>
 Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies.
 
 ----
