@@ -14,7 +14,7 @@ website:
   title: "Marvin Schmitt"
   description: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"
   site-url: "https://www.marvinschmitt.com"
-  image: img/marvin_foto.png
+  image: img/website_thumbnail.png
   
   repo-url: "https://github.com/marvinschmitt/marvinschmitt-dot-com"
   repo-branch: main
@@ -48,12 +48,12 @@ website:
   
   twitter-card: 
     creator: "@MarvinSchmittML"
-    image: img/marvin_foto.png
+    image: img/website_thumbnail.png
     title: "Marvin Schmitt"
     
   open-graph: 
     title: "Marvin Schmitt"
-    image: img/marvin_foto.png
+    image: img/website_thumbnail.png
     locale: en_US
     
   google-analytics: "G-N36VLTEM79"
