@@ -32,7 +32,7 @@ open-graph:
   image-height: "720"
 ---
 
-**Quick Links:** &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="" role="button" style="padding: 5px 5px;">Download the free Template</a> &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="https://marvinschmitt.github.io/quarto-website-template/" role="button" style="padding: 5px 5px;">Live preview of the template</a>
+**Quick Links:** &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="https://github.com/marvinschmitt/quarto-website-template/archive/refs/heads/main.zip" role="button" style="padding: 5px 5px;">Download the free Template</a> &nbsp;&nbsp;&nbsp; <a class="btn btn-outline-primary" href="https://marvinschmitt.github.io/quarto-website-template/" role="button" style="padding: 5px 5px;">Live preview of the template</a>
 
 # Introduction
 
