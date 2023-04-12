@@ -7,7 +7,7 @@ categories:
   - website
   - academia
   - quarto
-image: website-tutorial-thumbnail.png
+image: opengraph_thumbnail.png
 draft: false
 number-sections: true
 format:

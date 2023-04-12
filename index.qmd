@@ -10,10 +10,11 @@ format:
     fig-responsive: true
 listing:
   id: blog-listing
-  contents:     
+  contents:   
+    - "blog/website-tutorial-quarto/index.qmd"
     - "blog/agile-methods-for-academia/index.qmd"
     - "blog/ggsimplex-prerelease/index.qmd"
-    - "blog/4-realizations-from-atomic-habits/index.qmd"
+#    - "blog/4-realizations-from-atomic-habits/index.qmd"
   sort: "date desc"
   type: grid
   max-items: 3
@@ -66,6 +67,10 @@ listing:
 
 
 ## News
+
+- **April 12, 2023**: I have recorded a 15min presentation about our paper on *Meta-Uncertainty in Bayesian Model Comparison* (AISTATS 2023). Check it out: {{< video https://www.youtube.com/embed/WIigoUaqy9c 
+    title="Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)"
+    aspect-ratio="16x9" >}}
 
 - **March 29, 2023**: I'll be presenting our paper on *Meta-Uncertainty in Bayesian Model Comparison* at AISTATS 2023 from April 25-27 in Valencia, Spain. You find links to the paper and code on my <a href="projects/index.qmd#meta-uncertainty-BMC" target="_blank" style="color: #E6AA04;">Projects</a> page or on the dedicated <a href="https://meta-uncertainty.github.io/" target="_blank" style="color: #E6AA04;">paper website</a>. If you see me around at AISTATS, let's chat!
 
