@@ -9,7 +9,18 @@ toc-location: right
 <img src="/img/meta_uncertainty_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"/>
 
 <a href="https://arxiv.org/abs/2210.07278" target="_blank">Paper (AISTATS 2023)</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a> | <a href="https://meta-uncertainty.github.io/" target="_blank">Project website</a> | <a href="/assets/meta_uncertainty_poster_aistats.pdf" target="_blank">Poster</a> | <a href="https://www.youtube.com/watch?v=WIigoUaqy9c" target="_blank">Presentation (15min)</a><br>
+
 Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies.
+
+----
+
+## JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models
+
+<img src="/img/jana_figure_1.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2302.09125', 'blank');"/>
+
+<a href="https://arxiv.org/abs/2302.09125" target="_blank">Paper (arXiv)</a> | <a href="https://github.com/stefanradev93/BayesFlow" target="_blank">Python library</a><br>
+
+JANA is a new amortized solution for intractable likelihood functions and posterior densities in Bayesian modeling. It trains three networks to learn both an approximate posterior and a surrogate model for the likelihood, enabling amortized marginal likelihood and posterior predictive estimation.
 
 ----
 
