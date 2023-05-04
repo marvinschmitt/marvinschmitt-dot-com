@@ -65,8 +65,9 @@ website:
     image: img/website_thumbnail.png
     locale: en_US
     
-  google-analytics: "G-N36VLTEM79"
-  cookie-consent: true
+  google-analytics: 
+    tracking-id: "G-N36VLTEM79"
+    storage: none
   
   page-footer: 
     left: |
