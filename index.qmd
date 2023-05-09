@@ -65,8 +65,12 @@ listing:
 
 :::
 
-
+:::{#news}
 ## News
+
+- **May 9, 2023**: Our paper "JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models" has been accepted to UAI 2023 (Uncertainty in AI). Check out the [project page](projects/#jana-jointly-amortized-neural-approximation-of-complex-bayesian-models) to find out more!
+
+- **May 1, 2023**: Our paper "Association between vitamin D status and eryptosis–results from the German National Cohort Study" has been published in *Annals of Hematology*. A great collaboration among twelve researchers from [Martin-Luther-University Halle-Wittenberg](https://www.uni-halle.de/), [Cluster of Excellence SimTech (University of Stuttgart)](https://www.simtech.uni-stuttgart.de/) and [University of Hohenheim](https://www.uni-hohenheim.de/en). Here's a [link to the paper](https://link.springer.com/article/10.1007/s00277-023-05239-w).
 
 - **April 12, 2023**: I have recorded a 15min presentation about our paper on *Meta-Uncertainty in Bayesian Model Comparison* (AISTATS 2023). Check it out: {{< video https://www.youtube.com/embed/WIigoUaqy9c 
     title="Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)"
@@ -77,6 +81,8 @@ listing:
 - **March 20, 2023**: We are hiring a student assistant to help with software development for probabilistic machine learning. 5-10h/week and the student can be based at any German university. <a href="student_assistant_software_engineering_ml/index.html" target="_blank" style="color: #E6AA04;">Here</a> is a link to the advertisement. <a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
 
 - **March 10, 2023**: Heading to [BayesComp 2023](https://bayescomp2023.com/) in Levi, Finland. Finally putting faces to all those names from papers and Twitter. Presenting a [poster](projects/poster_bayescomp_mms.pdf) and an invited lightning talk. See you around!
+
+:::
 
 <!-- - **01.12.2021**: I have started working as a PhD researcher in Paul Buerkner's Junior Research Group for Bayesian Statistics at the Cluster of Excellence SimTech (University of Stuttgart). Excited to do hands-on research on Bayesian Statistics and Probabilistic Machine Learning! -->
 
