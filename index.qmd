@@ -32,7 +32,8 @@ listing:
         <div class="hero_content">
             <h1>Hi, I'm <span class="gradient_text">Marvin</span>.</h1>
             <p>I am a Data and Computer Scientist and a Psychologist.
-                Explore my blog and newsletter to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
+                Explore my blog to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
+            <p>Sign up to get notifications about new blog posts and to receive extra content on technology, data science, machine learning, programming, psychology, and statistics!</p>
 
             <div class="hero_content_input">
                 <iframe src="https://embeds.beehiiv.com/c7111066-479b-43db-ad92-8d703fe96bf0?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no"></iframe>
