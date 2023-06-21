@@ -1,0 +1,60 @@
+---
+title: "Every Scientist Should Have a Website"
+description: "How putting yourself out there helps you show your research, expand your network, control your own content, reach an audience, and enhance your opportunities."
+date: 06-21-2023
+categories: 
+  - website
+  - academia
+image: thumbnail.png
+draft: false
+format:
+  html:
+    fig-cap-location: bottom
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
+editor: 
+  markdown: 
+    wrap: sentence
+resources: 
+  - "thumbnail.png"
+  - "quarto-tutorial-screenshot.png"
+---
+
+# Introduction
+
+In today's fast-paced academic landscape, establishing a strong online presence is crucial for scientists to showcase their research, connect with peers, and build their professional brand. Don't get me wrong, a digital publication list is nice and cool; but having a personal website means much more than a mere collection of papers. It is a great tool to highlight our achievements, foster collaborations, and inspire others on a global scale. Let's take a look at five compelling reasons why you should consider creating your own website as well.
+
+# Reason 1: Showcase Your Work
+
+Imagine having a central hub where you can effectively present your research achievements, publications, and expertise to the scientific community and beyond. A personal website provides precisely that. By curating your work in one place, you can stand out in the competitive scientific landscape and make it easier for others to discover and appreciate your valuable contributions. This platform offers a great view of your research journey.
+
+# Reason 2: Expand Your Network
+
+Collaboration is key to scientific progress. Your personal website acts as a gateway, connecting you with fellow scientists, potential collaborators, and industry professionals. It opens doors to new opportunities and facilitates the expansion of your professional network. By providing contact information and writing about your research interests, you can attract like-minded individuals who share your passion and expertise. Through your website, you can foster collaborations, exchange ideas, and forge valuable connections.
+
+# Reason 3: Have Control Over Your Content
+
+In today's digital age, maintaining control over your online presence is essential. While social media platforms and other online channels offer great reach, they often come with limitations and constraints. A personal website grants you the freedom to share your research findings, insights, and perspectives on your own terms. You are not bound by character counts or algorithmic filters. This level of control allows you to maintain a professional online persona while freely expressing your thoughts and ideas.
+
+# Reason 4: Reach an Audience
+
+While traditional scientific publications are the currency of academia, their reach can be limited. A personal website breaks down these barriers and makes you reach a global audience. By sharing your research with the world, you can engage with science enthusiasts, inspire others, and make a lasting impact beyond academic papers. Whether your goal is to communicate complex scientific concepts to a broader audience or connect with fellow researchers on a global scale, a personal website will bring you one step closer to your goal.
+
+# Reason 5: Enhance Opportunities
+
+A personal website is a way for potential employers and academic institutions to find out about your work, achievements, and contributions. It offers them a comprehensive understanding of your expertise, research interests, and the impact of your work. By showcasing your accomplishments and highlighting your unique perspectives, you can enhance your chances of exciting career opportunities.
+
+# How to Start Today
+
+So why wait? Take the leap and create your personal website today! To assist you, I have prepared a free tutorial and template to get you started on the right foot:
+
+
+```{=html}
+<img src="quarto-tutorial-screenshot.png" style="width: 100%; object-fit: contain; box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3); border: 1px solid black;" onclick="window.open('../website-tutorial-quarto', 'blank');"/>
+```
+
+
+# Conclusion
+
+Having a personal website empowers you to showcase your work, expand your professional network, maintain control over your content, reach a global audience, and enhance your career opportunities.
+Remember: Your research is valuable, and you can create a personal website to put yourself out there and share your knowledge with others in no time.

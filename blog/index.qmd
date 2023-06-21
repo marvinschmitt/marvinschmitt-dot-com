@@ -8,6 +8,7 @@ description-meta: "Welcome to my blog, I’m thrilled to welcome you! Here, you 
 listing:
   - id: posts_2023
     contents: 
+      - "scientists-should-have-a-website/index.qmd"
       - "website-tutorial-quarto/index.qmd"
       - "agile-methods-for-academia/index.qmd"
       - "ggsimplex-prerelease/index.qmd"

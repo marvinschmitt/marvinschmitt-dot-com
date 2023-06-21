@@ -22,7 +22,7 @@ description-meta: "Computer Scientist & Psychologist | PhD researcher | Deep Lea
 website:
   title: "Marvin Schmitt"
   description: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"
-  site-url: "https://www.marvinschmitt.com"
+  site-url: https://www.marvinschmitt.com
   image: img/website_thumbnail.png
   
   repo-url: "https://github.com/marvinschmitt/marvinschmitt-dot-com"
