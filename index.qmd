@@ -69,6 +69,8 @@ listing:
 :::{#news}
 ## News
 
+- **June 21, 2023**: I will be at the [ELLIS Doctoral Symposium 2023](https://ellis.eu/events/ellis-doctoral-symposium-2023) in Helsinki from August 28 to September 1, 2023. Absolutely thrilled to meet other PhD students and researchers and talk about machine learning research in beautiful Helsinki!
+
 - **May 9, 2023**: Our paper "JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models" has been accepted to UAI 2023 (Uncertainty in AI). Check out the [project page](projects/#jana-jointly-amortized-neural-approximation-of-complex-bayesian-models) to find out more!
 
 - **May 1, 2023**: Our paper "Association between vitamin D status and eryptosis–results from the German National Cohort Study" has been published in *Annals of Hematology*. A great collaboration among twelve researchers from [Martin-Luther-University Halle-Wittenberg](https://www.uni-halle.de/), [Cluster of Excellence SimTech (University of Stuttgart)](https://www.simtech.uni-stuttgart.de/) and [University of Hohenheim](https://www.uni-hohenheim.de/en). Here's a [link to the paper](https://link.springer.com/article/10.1007/s00277-023-05239-w).
