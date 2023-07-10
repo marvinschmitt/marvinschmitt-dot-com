@@ -58,10 +58,8 @@ website:
   twitter-card: 
     creator: "@MarvinSchmittML"
     image: img/website_thumbnail.png
-    title: "Marvin Schmitt"
     
   open-graph: 
-    title: "Marvin Schmitt"
     image: img/website_thumbnail.png
     locale: en_US
     
