@@ -56,11 +56,13 @@ website:
   favicon: img/favicon.ico
   
   twitter-card: 
+    title: "Marvin Schmitt"
     creator: "@MarvinSchmittML"
-    image: img/website_thumbnail.png
+    image: "/img/website_thumbnail.png"
     
   open-graph: 
-    image: img/website_thumbnail.png
+    title: "Marvin Schmitt"
+    image: "/img/website_thumbnail.png"
     locale: en_US
     
   google-analytics: 
