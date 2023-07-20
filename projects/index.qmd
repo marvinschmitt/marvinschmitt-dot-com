@@ -14,6 +14,17 @@ Meta-Uncertainty represents a fully probabilistic framework for quantifying the 
 
 ----
 
+## BayesFlow: Amortized Bayesian Workflows With Neural Networks
+
+<img src="/img/bayesflow_overview.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://bayesflow.org', 'blank');"/>
+
+<a href="https://arxiv.org/abs/2306.16015" target="_blank">Software Paper (arXiv)</a> | <a href="https://bayesflow.org" target="_blank">Project website</a><br>
+
+BayesFlow is a Python library for simulation-based training of established neural network architectures for amortized data compression and inference. Amortized Bayesian inference, as implemented in BayesFlow, enables users to train custom neural networks on model simulations and re-use these networks for any subsequent application of the models. Since the trained networks can perform inference almost instantaneously, the upfront neural network training is quickly amortized.
+
+
+----
+
 ## JANA: Jointly Amortized Neural Approximation of Complex Bayesian Models
 
 <img src="/img/jana_figure_1.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2302.09125', 'blank');"/>
