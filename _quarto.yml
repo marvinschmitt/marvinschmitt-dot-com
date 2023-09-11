@@ -17,11 +17,11 @@ project:
     navigate: true
 
 title-meta: "Marvin Schmitt"
-description-meta: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"
+description-meta: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog The Training Loop 🚀"
 
 website:
   title: "Marvin Schmitt"
-  description: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog and newsletter 🚀"
+  description: "Computer Scientist & Psychologist | PhD researcher | Deep Learning, Data Science, Research | Explore my blog The Training Loop 🚀"
   site-url: https://www.marvinschmitt.com
   image: img/website_thumbnail.png
   
@@ -36,12 +36,12 @@ website:
     pinned: true
     logo: /img/ms_icon.png
     left:
-      - text: Blog
-        href: blog/index.qmd
       - text: Projects
         href: projects/index.qmd
       - text: CV
         href: cv/index.qmd
+      - text: The Training Loop
+        href: blog/index.qmd
     right:
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
