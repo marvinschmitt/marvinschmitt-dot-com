@@ -69,6 +69,12 @@ listing:
 :::{#news}
 ## News
 
+- **October 18, 2023**: We published a preprint on sensitivity-aware amortized Bayesian inference, led by [Lasse Elsemüller](https://twitter.com/elseml_). Check it out on [arXiv](https://arxiv.org/abs/2310.11122)!
+
+- **October 11, 2023**: In our recent preprint, we make simulation-based inference more data-efficient by leveraging self-consistency properties of the Bayesian joint model. You find the preprint on [arXiv](https://arxiv.org/abs/2310.04395).
+
+- **September 22, 2023**: Our paper "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks" has been awarded the [DAGM GCPR Honorable Mention](https://x.com/MarvinSchmittML/status/1706281145501933850) at this year's German Conference on Pattern Recognition. Huge thanks to my great co-authors!
+
 - **September 6, 2023**: Our paper "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks" has been accepted with oral presentation at the [German Conference for Pattern Recognition 2023](https://www.dagm-gcpr.de/year/2023). Learn more at the [project website](projects/#sbi-model-misspecification).
 
 - **June 21, 2023**: I will be at the [ELLIS Doctoral Symposium 2023](https://ellis.eu/events/ellis-doctoral-symposium-2023) in Helsinki from August 28 to September 1, 2023. Absolutely thrilled to meet other PhD students and researchers and talk about machine learning research in beautiful Helsinki!
@@ -82,12 +88,12 @@ listing:
     aspect-ratio="16x9" >}}
 
 - **March 29, 2023**: I'll be presenting our paper on *Meta-Uncertainty in Bayesian Model Comparison* at AISTATS 2023 from April 25-27 in Valencia, Spain. You find links to the paper and code on my <a href="projects/index.qmd#meta-uncertainty-BMC" target="_blank" style="color: #E6AA04;">Projects</a> page or on the dedicated <a href="https://meta-uncertainty.github.io/" target="_blank" style="color: #E6AA04;">paper website</a>. If you see me around at AISTATS, let's chat!
-
-- **March 20, 2023**: We are hiring a student assistant to help with software development for probabilistic machine learning, 5-10h/week. <a href="student_assistant_software_engineering_ml/index.html" target="_blank" style="color: #E6AA04;">Here</a> is a link to the advertisement. <a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
-
 :::
 
-<!-- - **March 10, 2023**: Heading to [BayesComp 2023](https://bayescomp2023.com/) in Levi, Finland. Finally putting faces to all those names from papers and Twitter. Presenting a [poster](projects/poster_bayescomp_mms.pdf) and an invited lightning talk. See you around! -->
+<!-- 
+- **March 20, 2023**: We are hiring a student assistant to help with software development for probabilistic machine learning, 5-10h/week. <a href="student_assistant_software_engineering_ml/index.html" target="_blank" style="color: #E6AA04;">Here</a> is a link to the advertisement. <a href="mailto:mail.marvinschmitt@gmail.com?subject=Student assistant ML software engineering" target="_blank" style="color: #E6AA04;">Drop me a mail</a> if you're interested!
+
+- **March 10, 2023**: Heading to [BayesComp 2023](https://bayescomp2023.com/) in Levi, Finland. Finally putting faces to all those names from papers and Twitter. Presenting a [poster](projects/poster_bayescomp_mms.pdf) and an invited lightning talk. See you around! -->
 
 <!-- - **01.12.2021**: I have started working as a PhD researcher in Paul Buerkner's Junior Research Group for Bayesian Statistics at the Cluster of Excellence SimTech (University of Stuttgart). Excited to do hands-on research on Bayesian Statistics and Probabilistic Machine Learning! -->
 
