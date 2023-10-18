@@ -69,8 +69,6 @@ listing:
 :::{#news}
 ## News
 
-- **October 18, 2023**: We published a preprint on sensitivity-aware amortized Bayesian inference, led by [Lasse Elsemüller](https://twitter.com/elseml_). Check it out on [arXiv](https://arxiv.org/abs/2310.11122)!
-
 - **October 11, 2023**: In our recent preprint, we make simulation-based inference more data-efficient by leveraging self-consistency properties of the Bayesian joint model. You find the preprint on [arXiv](https://arxiv.org/abs/2310.04395).
 
 - **September 22, 2023**: Our paper "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks" has been awarded the [DAGM GCPR Honorable Mention](https://x.com/MarvinSchmittML/status/1706281145501933850) at this year's German Conference on Pattern Recognition. Huge thanks to my great co-authors!
