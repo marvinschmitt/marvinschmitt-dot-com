@@ -1,11 +1,7 @@
 ---
 title: Projects
 comments: false
-format:
-  html:
-    toc: true
-    toc-location: left
-    toc-title: Projects
+toc: false
 ---
 
 This page contains a brief overview of projects that I significantly shaped throughout the entire project life cycle.
