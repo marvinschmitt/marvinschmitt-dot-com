@@ -33,7 +33,7 @@ listing:
         <div class="hero_content">
             <h1>Hi, I'm <span class="gradient_text">Marvin</span>.</h1>
             <p>I am a Data and Computer Scientist and a Psychologist.
-                Explore my blog to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
+                Check out my blog to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
             <p>If you want to get a notification about new content, consider subscribing here (it's free!):</p>
             <div class="hero_content_input">
                 <iframe src="https://embeds.beehiiv.com/c7111066-479b-43db-ad92-8d703fe96bf0?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no"></iframe>
@@ -68,8 +68,9 @@ listing:
 
 :::{#news}
 ## News
+- **January 23, 2024**: I will be at [Bayes on the Beach 2024](https://research.qut.edu.au/qutcds/bayes-onthe-beach/) in February. I will give a talk about reliable amortized Bayesian inference with neural networks and co-lead a workshop on amortized Bayesian workflows.
 
-- **October 11, 2023**: In our recent preprint, we make simulation-based inference more data-efficient by leveraging self-consistency properties of the Bayesian joint model. You find the preprint on [arXiv](https://arxiv.org/abs/2310.04395).
+- **October 11, 2023**: In our recent preprint, we make simulation-based inference more data-efficient by leveraging self-consistency properties of the Bayesian joint model. You find the preprint on [arXiv](https://arxiv.org/abs/2310.04395). Update: Published in the NeurIPS UniReps workshop.
 
 - **September 22, 2023**: Our paper "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks" has been awarded the [DAGM GCPR Honorable Mention](https://x.com/MarvinSchmittML/status/1706281145501933850) at this year's German Conference on Pattern Recognition. Huge thanks to my great co-authors!
 
