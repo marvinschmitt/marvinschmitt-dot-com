@@ -92,12 +92,12 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 .navbar-dark .navbar-nav .nav-link {
   z-index:0;
-  color: #fff;
+  color: #fff !important;
 }
 
 .navbar-dark:hover .navbar-nav:hover .nav-link:hover{
   z-index: 0;
-  color: $orange;
+  color: $orange !important;
 }
 
 .navbar-title {
