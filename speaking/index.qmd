@@ -30,6 +30,10 @@ Poster: [Meta-Uncertainty in Bayesian Model Comparison](pdf/poster_meta_uncertai
 First presented at [AISTATS 2023](http://aistats.org/aistats2023/).
 Paper published in [AISSTATS Conference Proceedings](https://proceedings.mlr.press/v206/schmitt23a.html).
 
+{{< video https://www.youtube.com/embed/WIigoUaqy9c 
+    title="Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)"
+    aspect-ratio="16x9" >}}
+
 - **Schmitt, M.** (2023). Talk (invited): What is AI?, Writing workshop for AI short stories, Cyber Valley, Tübingen, Germany
 
 - **Schmitt, M.** (2023). Talk (invited): Where Does AI begin?, Cyber Valley Office hours (general public audience), Tübingen, Germany

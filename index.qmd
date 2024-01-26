@@ -32,9 +32,14 @@ listing:
     <div class="hero section_padding">
         <div class="hero_content">
             <h1>Hi, I'm <span class="gradient_text">Marvin</span>.</h1>
-            <p>I am a Data and Computer Scientist and a Psychologist.
-            As an ELLIS PhD student, I use generative models to solve problems in probabilistic machine learning.
-                Check out my blog to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
+            <p>I am a Computer Scientist and a Psychologist.
+            As an ELLIS PhD student, I use generative models to solve problems in probabilistic machine learning.</p>
+            
+            <p><b><span style="color:#E6AA04"">JOB MARKET 2024:</span></b> I am looking for machine learning positions in Europe starting in winter 2024. My current interests revolve around deep learning, probabilistic ML, and ML4Science. Definitely open to new topics. I spend a considerable amount of my time programming in R and Python (PyTorch + TensorFlow). </p>
+            <p>Here is my <a href="cv/index.html"><span style='text-decoration: underline;
+  text-decoration-color: #E6AA04;'>CV (Link)</span></a>. Reach out if you think there might be a fit: <a href="mailto:mail.marvinschmitt@gmail.com"><span style='text-decoration: underline;
+  text-decoration-color: #E6AA04;'>mail.marvinschmitt@gmail.com</span></a></p>
+                <!--Check out my blog to learn more about deep learning, Bayesian statistics, psychology, software engineering, and a bit of everything in between. </p>
             <p>If you want to get a notification about new content, consider entering your email here (it's free of course!):</p>
             <div class="hero_content_input">
                 <iframe src="https://embeds.beehiiv.com/c7111066-479b-43db-ad92-8d703fe96bf0?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no"></iframe>
@@ -42,6 +47,7 @@ listing:
             <div class="hero_content_below_button">
                 <span>or <a href="blog/index.html" style="text-decoration: underline">read a bit of my blog first</a>.</span>
             </div>
+            -->
 
         </div>
         <div class="hero_image">
