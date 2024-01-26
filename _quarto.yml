@@ -9,6 +9,7 @@ project:
     - "assets/**"
     - "sitemap.xml"
     - "_redirects"
+    - "speaking/pdf/**"
 
   preview: 
     port: 22222
@@ -38,6 +39,8 @@ website:
     left:
       - text: Projects
         href: projects/index.qmd
+      - text: Speaking
+        href: speaking/index.qmd
       - text: CV
         href: cv/index.qmd
       - text: Blog
