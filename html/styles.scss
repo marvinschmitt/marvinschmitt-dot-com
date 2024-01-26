@@ -37,6 +37,7 @@ $light:     $gray-400 !default;
 $dark:      $black !default;
 
 
+$--bs-navbar-color: #fff !default;
 
 // Links
 $link-color: $orange !default;
@@ -91,7 +92,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  z-index:0;
+  z-index:8;
   color: #fff !important;
 }
 
