@@ -92,7 +92,7 @@ listing:
 
 - **May 1, 2023**: Our paper "Association between vitamin D status and eryptosis–results from the German National Cohort Study" has been published in *Annals of Hematology*. A great collaboration among twelve researchers from [Martin-Luther-University Halle-Wittenberg](https://www.uni-halle.de/), [Cluster of Excellence SimTech (University of Stuttgart)](https://www.simtech.uni-stuttgart.de/) and [University of Hohenheim](https://www.uni-hohenheim.de/en). Here's a [link to the paper](https://link.springer.com/article/10.1007/s00277-023-05239-w).
 
-- **April 12, 2023**: I have recorded a 15min presentation about our paper on *Meta-Uncertainty in Bayesian Model Comparison* (AISTATS 2023). Check it out: {{< video https://www.youtube.com/embed/WIigoUaqy9c 
+- **April 12, 2023**: I have recorded a 15min presentation about our paper on *Meta-Uncertainty in Bayesian Model Comparison* (AISTATS 2023). Check it out: {{< video https://www.youtube.com/embed/WIigoUaqy9c
     title="Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)"
     aspect-ratio="16x9" >}}
 

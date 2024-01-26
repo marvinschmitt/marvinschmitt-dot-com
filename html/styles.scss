@@ -92,7 +92,11 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  z-index:8;
+  z-index:0;
+  color: #fff !important;
+}
+
+.nav-link {
   color: #fff !important;
 }
 
