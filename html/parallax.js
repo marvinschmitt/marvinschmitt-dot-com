@@ -28,7 +28,6 @@ $('html').mousemove(function(e){
 		var wy = $(window).height();
 		
 		var x = e.pageX - this.offsetLeft;
-		var y = e.pageY - this.offsetTop;
 		
 		var newx = x - wx/2;
 		var newy = y - wy/2;
