@@ -75,7 +75,6 @@ website:
       <span class="faux-block">{{< fa brands creative-commons >}} 2023 Marvin Schmitt</span>
       <span class="faux-block"><a href="https://github.com/marvinschmitt/marvinschmitt-dot-com">{{< fa brands github >}} Source Code</a></span>
     center: |
-      <span class="faux-block"><a href="https://www.buymeacoffee.com/marvinschmitt" target="_blank"><img src="/assets/support_button.png" alt="Buy Me A Coffee" style="height: auto !important;width: 150px !important;" ></a></span>
       <span class="faux-block"><a href="/impressum/index.html">Impressum</a></span>
     right: |
       <span class="faux-block"> Designed with {{< fa heart >}}</span>

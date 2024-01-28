@@ -73,7 +73,7 @@ listing:
 
 <script src="html/jquery.min.js"></script>
 <script src="html/TweenMax.min.js"></script>
-<script src="html/parallax.js"></script>
+<!--<script src="html/parallax.js"></script>-->
 ```
 
 :::
