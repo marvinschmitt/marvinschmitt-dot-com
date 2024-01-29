@@ -83,7 +83,7 @@ listing:
 
 - **January 23, 2024**: I will be at [Bayes on the Beach 2024](https://research.qut.edu.au/qutcds/bayes-onthe-beach/) in February. I will give a talk about reliable amortized Bayesian inference with neural networks and co-lead a workshop on amortized Bayesian workflows.
 
-- **December 2023**: We launched the (BayesFlow Forums)[https://discuss.bayesflow.org/]! The BayesFlow Forums provide a community for asking and answering questions about all aspects of (BayesFlow)[https://www.bayesflow.org] and amortized Bayesian workflows in general. Hop over and join the discussion!
+- **December 2023**: We launched the [BayesFlow Forums](https://discuss.bayesflow.org/)! The BayesFlow Forums provide a community for asking and answering questions about all aspects of [BayesFlow](https://www.bayesflow.org) and amortized Bayesian workflows in general. Hop over and join the discussion!
 
 - **October 11, 2023**: In our recent preprint, we make simulation-based inference more data-efficient by leveraging self-consistency properties of the Bayesian joint model. You find the preprint on [arXiv](https://arxiv.org/abs/2310.04395). Update: Published in the NeurIPS UniReps workshop.
 
