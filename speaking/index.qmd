@@ -8,6 +8,10 @@ Here's a list of my selected public speaking occasions, talks, and presentations
 If available, you'll also find slides, related papers, and recordings.
 **Bold** font indicates presenter.
 
+- **Schmitt, M.** (2023). Talk: [Towards Reliable Amortized Bayesian Inference](pdf/slides_reliable_abi_botb.pdf). First presented at the [Bayes on the Beach 2024](https://research.qut.edu.au/qutcds/bayes-onthe-beach/) conference.
+
+- Schmitt, M., **Bürkner, P.-C.** (2024). Workshop: [Amortized Bayesian Inference with BayesFlow](https://colab.research.google.com/drive/1ub9SivzBI5fMbSTwVM1pABsMlRupgqRb?usp=sharing). First presented at the [Bayes on the Beach 2024](https://research.qut.edu.au/qutcds/bayes-onthe-beach/) conference.
+
 - **Schmitt, M.**, Habermann, D., Bürkner, P. C., & Radev, S. T. (2023). 
 Talk: [Leveraging Self-Consistency for Data-Efficient Amortized Bayesian Inference](pdf/slides_self_consistency_unireps.pdf). 
 First presented at the [NeurIPS Workshop for Unifying Representations in Neural Models](https://neurips.cc/virtual/2023/workshop/66494).
