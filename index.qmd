@@ -35,7 +35,7 @@ listing:
             <p>I am a Computer Scientist and a Psychologist.
             As an ELLIS PhD student, I use generative models to solve problems in probabilistic machine learning.</p>
             
-            <p><b><span style="color:#E6AA04"">JOB MARKET 2024:</span></b> I am looking for machine learning positions in Europe starting in winter 2024. My current interests revolve around deep learning, probabilistic ML, and ML4Science. I'm open for new topics as well. I spend a considerable amount of my time programming in R and Python (PyTorch + TensorFlow). </p>
+            <p><b><span style="color:#E6AA04"">JOB MARKET 2024:</span></b> I am looking for machine learning positions in Europe (or remote) starting in winter 2024. My current interests revolve around deep learning, probabilistic ML, and ML4Science. I'm curious about new topics as well. I spend a considerable amount of my time programming in R and Python (PyTorch + TensorFlow). </p>
             <p>Here is my <a href="cv/index.html"><span style='text-decoration: underline;
   text-decoration-color: #E6AA04;'>CV (Link)</span></a>. Reach out if you think there might be a fit: <a href="mailto:mail.marvinschmitt@gmail.com"><span style='text-decoration: underline;
   text-decoration-color: #E6AA04;'>mail.marvinschmitt@gmail.com</span></a></p>
