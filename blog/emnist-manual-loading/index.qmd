@@ -153,8 +153,13 @@ we get the following error:
 RuntimeError: Dataset not found. You can use download=True to download it
 ```
 
-Well, we kind of did all the downloading so that we don't need the problematic `download=True`... 
-As you can imagine, we have to (1) point `PyTorch` to where our EMNIST data lives; and (2) make the EMNIST data fit the format that `PyTorch` expects:
+Well, we kind of did all the downloading so that we *circumvent* the problematic `download=True` call.
+
+As you might expect, we have to make `PyTorch` find our downloaded EMNIST data. That's a two-step process: (1) We will make the EMNIST data fit the format that `PyTorch` expects; and (2) we will point `PyTorch` to where our EMNIST data lives.
+
+#### (1) Required directory tree
+
+`PyTorch` wants the following structure:
 
 ```
 DATASET_NAME
@@ -163,8 +168,8 @@ DATASET_NAME
     ├── ...-ubyte
 ```
 
-So, we change `gzip` to `raw` and wrap the entire `raw` folder into a folder named `EMNIST`.
-Your file tree should look like this now:
+To achieve this, we simply rename `gzip` to `raw` and wrap the entire `raw` folder into a parent folder called `EMNIST`.
+Now your file tree should look like this:
 
 ```
 EMNIST
@@ -188,20 +193,24 @@ EMNIST
     └── emnist-mnist-train-labels-idx1-ubyte
 ```
 
-Finally, the call to the `PyTorch` data loader will work as intended:
+#### (2) Point `PyTorch` to the correct path.
+
+Finally, the call to the `PyTorch` data loader will work as intended because the `EMNIST` folder is directly below my current working directory `./`:
 
 ```{python}
 #| eval: false
 
+data_root = "./"
+
 train_data = torchvision.datasets.EMNIST(
-  root="./", 
+  root=data_root, 
   split="digits", 
   train=True,
   download=False
 )
 ```
 
-If your `EMNIST/` folder lives somewhere else (e.g., in a dedicated `data/` folder=, just tell PyTorch via `root=path/to/your/data/folder/`.
+If your `EMNIST/` folder lives somewhere else (e.g., in a dedicated `data/` folder), simply adjust `data_root`.
 
 ### Step 5: Profit!
 
