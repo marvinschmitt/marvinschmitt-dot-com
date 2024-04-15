@@ -187,6 +187,13 @@ pre.text, pre.sourceCode, .cell-output pre {
   color:$white;
 }
 
+#title-block-header.quarto-title-block.default .title, 
+#title-block-header.quarto-title-block.default .code-tools-button p::before,
+#title-block-header.quarto-title-block.default .code-tools-button i::before
+{
+  color: $orange;
+}
+
 #quarto-content>* {
   padding: 0;
 }
