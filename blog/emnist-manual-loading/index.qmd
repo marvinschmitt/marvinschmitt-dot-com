@@ -1,0 +1,211 @@
+---
+title: "Download EMNIST manually"
+description: "A quick guide to download the EMNIST data set manually when the PyTorch loader fails."
+date: 04-15-2024
+categories: 
+  - programming
+  - python
+  - machine learning
+  - technical
+draft: false
+number-sections: false
+image: emnist-manual-loading-thumbnail.png
+format:
+  html:
+    fig-cap-location: bottom
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
+    comments: false
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+:::{.callout}
+This is a quick reference for my future self, maybe it's helpful for you as well.
+
+**TL;DR:** Manual EMNIST data download requires directory name updates to make `PyTorch` happy.
+:::
+
+## Problem: Automatic EMNIST download failed
+
+Earlier today, I wanted to reproduce the results of a machine learning paper that uses the EMNIST digits data set to train a `PyTorch` model.
+Normally, PyTorch makes loading *and even downloading* data sets extremely easy for us.
+The `torchvision.datasets` module provides a handful of commonly used data sets with a user-friendly API.
+Most importantly for us right now, the data set loaders come with the convenient `download=True` argument to download a data set automatically:
+
+```{python}
+#| eval: false
+
+import torchvision
+
+train_data = torchvision.datasets.EMNIST(
+  root="./", 
+  split="digits", 
+  train=True,
+  download=True
+)
+```
+
+Unfortunately, that throws a `RuntimeError`:
+
+```
+RuntimeError: File not found or corrupted.
+```
+
+Next, I wanted to just *download* the data from a URL via `torchvision.datasets.util.download_url(...)`.
+I found a handful of EMNIST URLs on the internet, but either got the same old `File not found or corrupted` or an SSL error.
+
+## Fix: Manual download and directory adjustments
+
+Here's a brief list of steps for downloading the EMNIST data manually and then preparing the directory for `torchvision.datasets.EMNIST(..., download=False)`.
+
+### Step 1: Download the files
+
+Go to the official [EMNIST website (Link)](https://www.nist.gov/itl/products-and-services/emnist-dataset) and head to *Binary format as the original MNIST dataset*.
+Alternatively, here's the link: [EMNIST Direct Download Link](https://biometrics.nist.gov/cs_links/EMNIST/gzip.zip)
+
+That archive with the great name `gzip.zip` has a size of approximately 500MB.
+
+
+### Step 2: Unpack the `gzip.zip` archive
+
+Head to your project's data directory (or global data directory if you have that) and unpack the previously downloaded `gzip.zip` archive there.
+You will get a folder `gzip/` that contains a whole lot of `*.gz` files:
+
+```
+.
+└── gzip
+    ├── emnist-balanced-mapping.txt
+    ├── emnist-balanced-test-images-idx3-ubyte.gz
+    ├── emnist-balanced-test-labels-idx1-ubyte.gz
+    ├── emnist-balanced-train-images-idx3-ubyte.gz
+    ├── emnist-balanced-train-labels-idx1-ubyte.gz
+    ├── ...
+    ├── emnist-digits-mapping.txt
+    ├── emnist-digits-test-images-idx3-ubyte.gz
+    ├── emnist-digits-test-labels-idx1-ubyte.gz
+    ├── emnist-digits-train-images-idx3-ubyte.gz
+    ├── emnist-digits-train-labels-idx1-ubyte.gz
+    ├── ...
+    ├── emnist-mnist-mapping.txt
+    ├── emnist-mnist-test-images-idx3-ubyte.gz
+    ├── emnist-mnist-test-labels-idx1-ubyte.gz
+    ├── emnist-mnist-train-images-idx3-ubyte.gz
+    └── emnist-mnist-train-labels-idx1-ubyte.gz
+```
+
+:::{.callout-note}
+## EMNIST splits
+
+You'll notice a structure: There are different splits, encoded in the filenames as `emnist-<split>-...`. 
+This `<split>` corresponds to the `split=...` argument in `torchvision.datasets.EMNIST`.
+For this project, I only needed the `digits` split, so I deleted the files of all the other splits.
+:::
+
+### Step 3: Unpack the individual `.gz` files
+
+Unpack all the `*.gz` files that you need.
+On MacOS, the built-in archive tools can handle `.gz` files, YMMV.
+Delete the `*.gz` files after you're done unpacking.
+You should have the following structure now:
+
+```
+.
+└── gzip
+    ├── emnist-balanced-mapping.txt
+    ├── emnist-balanced-test-images-idx3-ubyte
+    ├── emnist-balanced-test-labels-idx1-ubyte
+    ├── emnist-balanced-train-images-idx3-ubyte
+    ├── emnist-balanced-train-labels-idx1-ubyte
+    ├── ...
+    ├── emnist-digits-mapping.txt
+    ├── emnist-digits-test-images-idx3-ubyte
+    ├── emnist-digits-test-labels-idx1-ubyte
+    ├── emnist-digits-train-images-idx3-ubyte
+    ├── emnist-digits-train-labels-idx1-ubyte
+    ├── ...
+    ├── emnist-mnist-mapping.txt
+    ├── emnist-mnist-test-images-idx3-ubyte
+    ├── emnist-mnist-test-labels-idx1-ubyte
+    ├── emnist-mnist-train-images-idx3-ubyte
+    └── emnist-mnist-train-labels-idx1-ubyte
+```
+
+### Step 4: Adjust the directory structure for PyTorch
+
+If we try to load the data set into PyTorch with the `download=False` argument now,
+
+```{python}
+#| eval: false
+
+train_data = torchvision.datasets.EMNIST(
+  root="./", 
+  split="digits", 
+  train=True,
+  download=False
+)
+```
+
+we get the following error:
+
+```
+RuntimeError: Dataset not found. You can use download=True to download it
+```
+
+Well, we kind of did all the downloading so that we don't need the problematic `download=True`... 
+As you can imagine, we have to (1) point `PyTorch` to where our EMNIST data lives; and (2) make the EMNIST data fit the format that `PyTorch` expects:
+
+```
+DATASET_NAME
+└── raw
+    ├── ...-mapping.txt
+    ├── ...-ubyte
+```
+
+So, we change `gzip` to `raw` and wrap the entire `raw` folder into a folder named `EMNIST`.
+Your file tree should look like this now:
+
+```
+EMNIST
+└── raw
+    ├── emnist-balanced-mapping.txt
+    ├── emnist-balanced-test-images-idx3-ubyte
+    ├── emnist-balanced-test-labels-idx1-ubyte
+    ├── emnist-balanced-train-images-idx3-ubyte
+    ├── emnist-balanced-train-labels-idx1-ubyte
+    ├── ...
+    ├── emnist-digits-mapping.txt
+    ├── emnist-digits-test-images-idx3-ubyte
+    ├── emnist-digits-test-labels-idx1-ubyte
+    ├── emnist-digits-train-images-idx3-ubyte
+    ├── emnist-digits-train-labels-idx1-ubyte
+    ├── ...
+    ├── emnist-mnist-mapping.txt
+    ├── emnist-mnist-test-images-idx3-ubyte
+    ├── emnist-mnist-test-labels-idx1-ubyte
+    ├── emnist-mnist-train-images-idx3-ubyte
+    └── emnist-mnist-train-labels-idx1-ubyte
+```
+
+Finally, the call to the `PyTorch` data loader will work as intended:
+
+```{python}
+#| eval: false
+
+train_data = torchvision.datasets.EMNIST(
+  root="./", 
+  split="digits", 
+  train=True,
+  download=False
+)
+```
+
+If your `EMNIST/` folder lives somewhere else (e.g., in a dedicated `data/` folder=, just tell PyTorch via `root=path/to/your/data/folder/`.
+
+### Step 5: Profit!
+
+Now off you go and make some fancy machine learning stuff with EMNIST! ✨
+
+
+--Marvin
