@@ -1,6 +1,6 @@
 ---
 title: "Download EMNIST manually"
-description: "A quick guide to download the EMNIST data set manually when the PyTorch loader fails."
+description: "EMNIST is a classic image data set for machine learning. Sometimes the automatic PyTorch download fails, that bugs me. Here's a quick guide to download the EMNIST data set manually and make it work with PyTorch."
 date: 04-15-2024
 categories: 
   - programming
@@ -24,7 +24,7 @@ editor:
 :::{.callout}
 This is a quick reference for my future self, maybe it's helpful for you as well.
 
-**TL;DR:** Manual EMNIST data download requires directory name updates to make `PyTorch` happy.
+**TL;DR:** Manual EMNIST data download requires directory name updates to make `PyTorch` happy. Need `./EMNIST/raw/<binaries>`.
 :::
 
 ## Problem: Automatic EMNIST download failed

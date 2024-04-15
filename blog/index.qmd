@@ -6,6 +6,12 @@ page-layout: full
 description-meta: "Welcome to my blog, I’m thrilled to welcome you! Here, you will find a collection of articles on a wide variety of topics. Take a look around and let me know what you think!"
 
 listing:
+  - id: posts_2024
+    contents:
+      - "emnist-manual-loading/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
   - id: posts_2023
     contents: 
       - "functional-programming-r-basics/index.qmd"
@@ -32,7 +38,12 @@ code-tools: false
 comments: false
 ---
 
-Welcome to my blog *The Training Loop*. I'm thrilled that you are here! You will find a collection of articles on a wide variety of topics. As an avid learner, I want to share with you what I pick up along the way. I hope you will find something of interest on my blog. So, take a look around and let me know what you think.
+Welcome to my blog *The Training Loop*. Here's a collection of articles. Currently, there is no real ordering or coherent theme. I'm not very consistent with writing regular blog posts either -- I'm very proud that I made it further than the lonely "Hello World!" post though. If you want to get a notification when I add a new blog post, you can enter your email address at the bottom of the page. It's free and I won't send spam.
+
+## 2024
+
+:::{#posts_2024}
+:::
 
 ## 2023
 
