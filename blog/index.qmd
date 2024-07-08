@@ -1,5 +1,5 @@
 ---
-title: "The Training Loop"
+title: "`Marvin.log()`"
 author: ""
 title-block-banner: false
 page-layout: full
@@ -38,7 +38,7 @@ code-tools: false
 comments: false
 ---
 
-Welcome to my blog *The Training Loop*. Here's a loose collection of articles. Currently, there is no real ordering or coherent theme, but that might change in the future. I'm not very consistent with writing regular blog posts either -- I'm proud that I made it past the lonely "Hello World!" post though. If you want to get a notification when I add a new blog post, you can enter your email address at the bottom of the page. It's free and I won't send spam. I appreciate any kind of feedback, that's a source of motivation and a signal which topics actually resonate with readers.
+Welcome to my blog, which I called `Marvin.log()`. Here's a loose collection of articles. Currently, there is no real ordering or coherent theme, but that might change in the future. I'm not very consistent with writing regular blog posts either -- I'm proud that I made it past the lonely "Hello World!" post though. If you want to get a notification when I add a new blog post, you can enter your email address at the bottom of the page. It's free and I won't send spam. I appreciate any kind of feedback and I'm genuinely thankful for your interest and time.
 
 ## 2024
 
