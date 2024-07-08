@@ -93,6 +93,12 @@ listing:
 :::{#news}
 ## News
 
+- **July 8, 2024**: I started a YouTube channel! The videos will broadly fall into these categories: Early career research based on my experience, technical machine learning topics, applied programming in R and Python. In my first video, I talk about my background and my plans for the channel: {{< video https://www.youtube.com/watch?v=5Z9yNEgbbfU
+    title="I started a YouTube channel!"
+    aspect-ratio="16x9" >}}
+
+- **June 6, 2024**: My guest episode on the [Learning Bayesian Statistics](https://learnbayesstats.com/) podcast is live. We had a great conversation about my research on amortized Bayesian inference with neural networks. Here's the announcement post on [Twitter](https://x.com/MarvinSchmittML/status/1798708954769641638) and [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7204469302513602560/).
+
 - **April 3, 2024**: Just finished recording an episode of the [Learning Bayesian Statistics](https://learnbayesstats.com/) podcast. The episode will air later this summer. Thanks [Alex Andorra](https://twitter.com/alex_andorra) for having me as a guest!
 
 - **March 1, 2024**: I'm spending 6 months as a visiting researcher in the Probabilistic ML group at Aalto University in Finland, hosted by [Aki Vehtari](https://users.aalto.fi/~ave/).
