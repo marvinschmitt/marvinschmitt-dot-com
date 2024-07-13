@@ -48,6 +48,8 @@ website:
     right:
       - icon: twitter
         href: https://twitter.com/MarvinSchmittML
+      - icon: youtube
+        href: https://www.youtube.com/@marvin-schmitt
       - icon: github
         href: https://github.com/marvinschmitt
       - icon: linkedin

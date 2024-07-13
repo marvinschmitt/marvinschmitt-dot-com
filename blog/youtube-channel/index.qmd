@@ -1,0 +1,74 @@
+---
+title: "I started a YouTube channel!"
+description: "The videos will be about early career research, technical ML/DL topics, and applied programming in R and Python. Check out my first video!"
+date: 07-12-2024
+categories: 
+  - announcement
+draft: false
+number-sections: false
+image: youtube-channel-thumbnail.jpeg
+format:
+  html:
+    fig-cap-location: bottom
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
+    comments: false
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+This is a short blog post to share an exciting announcement with you.
+This thought has been on my mind for a while, and I finally decided to take the plunge.
+
+## ✨ I’m starting a YouTube channel ✨
+
+The videos on the YouTube channel will fall into three categories:
+
+-   Early career research: tips and advice based on my own experience
+
+-   Technical topics: Data science, machine learning, and deep learning
+
+-   Applied programming: Visualization, reports, websites, and software design in R and Python
+
+{{< tweet user=MarvinSchmittML id=1809903233751503253 >}}
+
+## About the channel 🧭
+
+The direction of the channel is not set in stone, and I’ll try to figure things out along the way.
+For now, my main goal is to get better at talking to the camera and practice video editing.
+If that piques your interest, I would be thrilled if you checked out my channel.
+In my first video, I talk about my background and my plans for the channel (i.e., I have none lol)
+
+{{< youtube 5Z9yNEgbbfU >}}
+
+## Restructuring my website and newsletter 🏗
+
+The launch of the YouTube channel will lead to some restructuring work on my website overall.
+Setting up the channel made me think about what my vision is for future content.
+The blog will follow the same structure as the channel, with posts on early career research, technical ML/DL topics, and applied programming.
+I plan to use the `tag` system to make it easier for you to find the content you are interested in.
+This whole process may take a while and I appreciate your patience.
+For now, the **newsletter** (see bottom of the page) will mainly be used to send notifications about new content.
+I would like to focus on a consistent content schedule before I start sending out newsletters with additional content.
+So if you want to stay up to date and get occasional updates directly into your inbox, feel free to subscribe below (it's free!).
+
+## What are your thoughts? 🧠
+
+You would make my day if you took a minute to engage with my content.
+I truly appreciate any kind of feedback (e.g., my voice is too bass-heavy in the video) or comments.
+For example, you might want to let me know:
+
+-   What topics should I cover?
+-   Do you have positive examples of similar content that you enjoy?
+-   What mistakes should I avoid? What annoys you about other creators?
+-   What makes a video worth watching for you?
+-   How can I add to the existing conversation on early career research and machine learning?
+
+## Get in touch 📬
+
+Feel free to drop me a message via email ([mail.marvinschmitt@gmail.com](mailto:mail.marvinschmitt@gmail.com)), or reach out on any social media platform.
+
+Thanks for reading, see you!
+
+--Marvin

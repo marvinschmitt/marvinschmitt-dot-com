@@ -8,6 +8,7 @@ description-meta: "Welcome to my blog, I’m thrilled to welcome you! Here, you 
 listing:
   - id: posts_2024
     contents:
+      - "youtube-channel/index.qmd"
       - "emnist-manual-loading/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs

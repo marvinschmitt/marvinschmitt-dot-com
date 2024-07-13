@@ -11,10 +11,11 @@ format:
 listing:
   id: blog-listing
   contents:   
-    - "blog/functional-programming-r-basics/index.qmd"
+    - "blog/youtube-channel/index.qmd"
     - "blog/website-tutorial-quarto/index.qmd"
+    - "blog/functional-programming-r-basics/index.qmd"
     # - "blog/agile-methods-for-academia/index.qmd"
-    - "blog/ggsimplex-prerelease/index.qmd"
+    # - "blog/ggsimplex-prerelease/index.qmd"
     # - "blog/4-realizations-from-atomic-habits/index.qmd"
   sort: "date desc"
   type: grid
