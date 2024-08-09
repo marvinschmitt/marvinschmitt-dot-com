@@ -1,0 +1,28 @@
+---
+title: "Make your built-in laptop mic sound good in OBS"
+description: "Some quick tips to improve the audio quality of your recordings and screen captures."
+date: 08-10-2024
+categories: 
+  - technology
+image: thumbnail.png
+draft: false
+format:
+  html:
+    fig-cap-location: bottom
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
+editor: 
+  markdown: 
+    wrap: sentence
+resources: 
+  - "thumbnail.png"
+---
+
+I recorded a short tutorial video, where I walk you through the steps to improve the audio quality of your built-in laptop microphone in OBS. Here's the video:
+
+{{< video https://www.youtube.com/watch?v=r2vSvVaIWNc
+    title="Make your built-in laptop microphone sound good in OBS"
+    aspect-ratio="16x9" >}}
+
+
+The video is unlisted because it doesn't fit in the usual content of my channel. If you're interested in a polished version of the video for the main channel, let me know and I'll add it to my content list. If you have any questions or suggestions, feel free to reach out -- always happy to help.
