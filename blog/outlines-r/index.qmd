@@ -1,0 +1,77 @@
+---
+title: "Using LLMs with Structured Generation with Outlines in R"
+description: "A short proof-of-concept that calls the Outlines package from within R, with OpenAI's GPT-4o as a language model."
+date: 10-15-2024
+categories: 
+  - tech
+  - programming
+draft: false
+number-sections: false
+image: outlines-r-thumbnail.png
+format:
+  html:
+    fig-cap-location: bottom
+    include-before-body: ../../html/margin_image.html
+    include-after-body: ../../html/blog_footer.html
+    comments: false
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+Python is a great Swiss knife for many tasks, especially when it comes to deep learning these days.
+However, many statisticians and data scientists prefer working in R 
+In this short blog post, we'll use the `reticulate` package to work with Python code inside R, demonstrating this with the `outlines` package and OpenAI's GPT-4o language model.
+
+## Load Reticulate and Set Up the Environment
+
+Load the `reticulate` library to interface between R and Python, and specify the conda environment that contains the necessary Python packages (`outlines`, `openai` and `tiktoken` in my case).
+
+```{r}
+library(reticulate)
+use_condaenv("/Users/marvin/miniforge3/envs/outlines_py310", required = TRUE)
+os <- import("os")
+outlines <- import("outlines")
+```
+
+## Set Up the OpenAI Model
+
+Set up the OpenAI model using the `outlines` package. 
+You should not write your API key directly in the code.
+Instead, we use an environment variable which we set in the terminal before running the R script.
+This ensures that you don't accidentally leak your secret API key.
+
+```{r}
+api_key <- Sys.getenv("OPENAI_API_KEY")
+model <- outlines$models$openai("gpt-4o", api_key = api_key)
+```
+
+## Generate a Response
+
+Now we'll use the language model to answer a question, and restrict the answer to a choice from multiple options.
+For demonstration purposes, let's see whether GPT-4 can answer a basic question about Bayesian statistics.
+
+```{r}
+choices = c("Prior", "Likelihood", "Marginal Likelihood", "Evidence", "Posterior")
+generator <- outlines$generate$choice(model, choices)
+
+result <- generator("In a Bayesian model, what do we call the probability distribution of parameters given the data?")
+print(result)
+```
+
+Let's try another more technical question, this time about the choice of a suitable likelihood for count data.
+
+```{r}
+choices = c("Gaussian", "Poisson", "Negative-Binomial", "Gamma")
+generator <- outlines$generate$choice(model, choices)
+
+result <- generator("We have a Bayesian model for count data $y$. The data $y$ is lower-bounded at zero, can take on integer values, and is probably overdispersed. The most suitable likelihood is ")
+print(result)
+```
+
+
+## Next Steps
+
+In this demonstrator, we used `reticulate` as a simple bridge to call Python packages from within R.
+As a next steps, you can try other generation schemes (not just multiple choice) or build more complex pipelines.
+Also, Outlines really shines if you use it with a local open source LLM, so you should try that as well.

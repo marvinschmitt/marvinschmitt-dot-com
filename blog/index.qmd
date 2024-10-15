@@ -8,6 +8,7 @@ description-meta: "Welcome to my blog, I’m thrilled to welcome you! Here, you 
 listing:
   - id: posts_2024
     contents:
+      - "outlines-r/index.qmd"
       - "laptop-mic-obs/index.qmd"
       - "youtube-channel/index.qmd"
       - "emnist-manual-loading/index.qmd"
