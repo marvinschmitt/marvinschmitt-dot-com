@@ -1,6 +1,6 @@
 ---
-title: "Using LLMs with Structured Generation with Outlines in R"
-description: "A short proof-of-concept that calls the Outlines package from within R, with OpenAI's GPT-4o as a language model."
+title: "Structured Language Generation with Outlines in R"
+description: "Calling the Outlines Python package in R with the reticulate package, with OpenAI's GPT-4o as a language model."
 date: 10-15-2024
 categories: 
   - tech
