@@ -19,9 +19,10 @@ editor:
     wrap: sentence
 ---
 
-Python is a great Swiss knife for many tasks, especially when it comes to deep learning these days.
-However, many statisticians and data scientists prefer working in R 
-In this short blog post, we'll use the `reticulate` package to work with Python code inside R, demonstrating this with the `outlines` package and OpenAI's GPT-4o language model.
+Python is a great Swiss army knife for many tasks, especially when it comes to deep learning these days.
+However, many statisticians and data scientists prefer working in R. 
+In this short blog post, we'll use the `reticulate` package to work with Python code inside R.
+This lets us use the great `outlines` package by dottxt, and OpenAI's GPT-4o as a language model backend.
 
 ## Load Reticulate and Set Up the Environment
 
